@@ -7,7 +7,7 @@ _side_id=(_side) call CTI_CO_FNC_GetSideID;
 _sidelogic= (_side) call CTI_CO_FNC_GetSideLogic;
 _neigh=( _sidelogic getVariable "CTI_BASES_NEIGH");
 _new_neigh = [_base,CTI_TOWNS] call CTI_CO_FNC_SortByDistance;
-_neigh_vect=[(_new_neigh select 0),(_new_neigh select 1),(_new_neigh select 2)];
+_neigh_vect=[(_new_neigh select 0),(_new_neigh select 1)];
 _neigh set [_ind,_neigh_vect];
 _sidelogic setVariable ["CTI_BASES_NEIGH",_neigh,true];
 

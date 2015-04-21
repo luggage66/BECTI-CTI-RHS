@@ -12,7 +12,7 @@ _neigh=( _sidelogic getVariable "CTI_BASES_NEIGH") select _ind;
 _protected =[];
 
 while {!CTI_GameOver} do {
-	if (({(_x getVariable "cti_town_sideID") == _side_id } count _neigh) == count _neigh) then {
+	if (({(_x getVariable "cti_town_sideID") == _side_id } count _neigh) >0) then {
 		_objects = _sidelogic getvariable ["cti_structures",[]];
 		{ if (!(_x getvariable ["CTI_protected",false]) && ((_x distance _base) <= CTI_BASE_AREA_RANGE)) then {
 			_x setvariable ["CTI_protected",true,false];
