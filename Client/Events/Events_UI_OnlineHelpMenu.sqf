@@ -7,7 +7,7 @@ _action = _this select 0;
 
 switch (_action) do {
 	case "onLoad": {
-		{((uiNamespace getVariable "cti_dialog_ui_onlinehelpmenu") displayCtrl 160001) lbAdd _x} forEach ["Welcome Screen","Interraction menu", "The Basics", "The Map","Strategic Mode","Base Protection", "Player Economy", "Base Structures", "Special Vehicles", "Commander","Advance network","Tactical Hud","Trophy System","Remote Control","Credits"];
+		{((uiNamespace getVariable "cti_dialog_ui_onlinehelpmenu") displayCtrl 160001) lbAdd _x} forEach ["Welcome Screen","Interaction menu", "The Basics", "The Map","Strategic Mode","Base Protection", "Player Economy", "Base Structures", "Special Vehicles", "Commander","Advance network","Tactical Hud","Trophy System","Remote Control","Credits"];
 		((uiNamespace getVariable "cti_dialog_ui_onlinehelpmenu") displayCtrl 160001) lbSetCurSel 0;
     for "_i" from 2 to 200 /* step +1 */ do {
       if (keyName _i != """") then {
@@ -29,36 +29,36 @@ switch (_action) do {
 	case "onHelpLBSelChanged": {
 		_changeTo = _this select 1;
 
-_helps = [format ["<t size='1.4' color='#2394ef'>Welcome in BECTI - Zerty mod</t><br /><br />
-<t size='1.4' color='#FF3333'>Interactions / Buying Gear and units</t><br />
-You can open the interraction menu regarding the object you are facing, if you are close enougth by pressing the <t color='#2394ef'>%1 key</t>; this key can be configured with the combo box on top of the online help menu (the current one).<br /><br />
+_helps = [format ["<t size='1.4' color='#2394ef'>Welcome to BECTI/Zerty/RHS!</t><br /><br />
+<t size='1.4' color='#FF3333'>Interaction/Buying Gear and Units</t><br />
+You can open the interaction menu regarding the object you are facing, if you are close enough by pressing the <t color='#2394ef'>%1 key</t>; this key can be configured with the dropdown box at the top of this online help menu.<br /><br />
 <t size='1.2' color='#e8bd12'>The Mission</t><br />
-This Mission is based on the original CTI Benny Edition mission (obviously by Benny) and then modified by Zerty. More informations on zerty's mod. and a download link to the mission file can be found on the website http://www.jammywarfare.eu . The full credits can be found in this menu; the changelog can be found in the map menu.<br /><br />
+This mission is based on the original CTI Benny Edition mission (obviously by Benny), modified by Zerty, with follow-on mods by DartNecron and finally minor changes by Blind Firepower. More information on Zerty's mod and a download link to the mission file can be found on the website http://www.jammywarfare.eu . The full credits can be found in this menu; the changelog can be found in the map menu.<br /><br />
 <t size='1.2' color='#e8bd12'>Objective</t><br />
-The goal of a CTI mission is to take most the towns of the map or destroy enemy facilities and MHQ. The more towns your team controls the more money you will earn. A commander is in charge of building factories, unlocking the upgrades and setting the team strategies.<br /><br />
+The goal of a CTI mission is to take most of the towns on the map or destroy all of the enemy's factories and their MHQ. The more towns your team controls the more money you will earn. A commander is in charge of building factories, unlocking the upgrades and setting the team strategies.<br /><br />
 <t size='1.2' color='#e8bd12'>Money</t><br />
-You will earn money by taking towns and killing enemies. You will also get paid for your efforts every minute, depending how many town your team owns.<br /><br /><br />
+You will earn money by taking towns and killing enemies. You will also get paid for your efforts every minute, depending on how many towns your team controls.<br /><br /><br />
 
 <t color='#e8bd12'>You can disable this screen by disabling hints in the video options.</t>
 ",keyImage(profilenamespace getvariable ['CTI_TABLET_KEY',41])],
-format ["<t size='1.4' color='#2394ef'>Interraction Menu</t><br /><br />
+format ["<t size='1.4' color='#2394ef'>Interaction Menu</t><br /><br />
 The Interaction menu is the interface replacing the old action menu.<br /><br />
-It can be oppened facing most objects and by pressing the <t color='#2394ef'>%1 key</t>, this key can be configured with the combo box on top of the online help menu (the current one).<br /><br />
-An<t color='#e8bd12'> additionnal key</t> can be configured through the user action in the Arma 3 configuration as <t color='#e8bd12'>User action 5</t>.<br /><br />
-This menu will differ if you are inside a vehicle or outside and also on what kind of object you are looking at.",keyImage(profilenamespace getvariable ['CTI_TABLET_KEY',41])],
+It can be opened by facing most objects and pressing the <t color='#2394ef'>%1 key</t>, this key can be configured with the dropdown box at the top of this online help menu.<br /><br />
+An<t color='#e8bd12'> additional key</t> can be configured through the user action in the Arma 3 configuration as <t color='#e8bd12'>User action 5</t>.<br /><br />
+This menu will differ depending on whether you are inside or outside a vehicle and the kind of object you are looking at.",keyImage(profilenamespace getvariable ['CTI_TABLET_KEY',41])],
 "<t size='1.4' color='#2394ef'>The Basics</t><br /><br />
-Each side's teams are led by a <t color='#e8bd12'>Team Leader</t> which will respawn after it's death (you are a Team Leader). Your character's location can be seen on the map if you are connected to the network. You position will be shown with one of the icons below, along with your group name and player name.<br /><br />
+Each side's teams are led by a <t color='#e8bd12'>Team Leader</t> which will respawn after it's death (you are a Team Leader). Your character's location can be seen on the map if you are connected to the network. Your position will be shown with one of the icons below, along with your group name and player name.<br /><br />
 <t align='center'><img image='\A3\ui_f\data\map\Markers\NATO\b_inf.paa' size='2'/> <img image='\A3\ui_f\data\map\Markers\NATO\o_inf.paa' size='2'/></t><br /><br />
-Each player team has it's own <t color='#e8bd12'>Income</t>, the income can be viewed by accessing the <t color='#eaff96'>Options Menu</t>. The income can be increased by controlling <t color='#e8bd12'>Towns</t> and by earning non-combat points.<br /><br />
-<t color='#e8bd12'>Towns</t> will generate a different income value depending on their size. The bigger the town the bigger the bounty (and the difficulty!). Note that an <t color='#e8bd12'>Occupied Towns</t> will generate more income.<br /><br />
-<t color='#e8bd12'>Towns</t> are also defended by resistance at the start of the game so as you try to capture them, they will try to defend and recapture it!<br />
+Each player team has it's own <t color='#e8bd12'>income</t>, the income can be viewed by accessing the <t color='#eaff96'>Options Menu</t>. The income can be increased by controlling <t color='#e8bd12'>towns</t> and by earning non-combat points.<br /><br />
+<t color='#e8bd12'>Towns</t> will generate a different income value depending on their size. The bigger the town the bigger the bounty (and the difficulty!). Note that <t color='#e8bd12'>occupied towns</t> will generate more income.<br /><br />
+<t color='#e8bd12'>Towns</t> are also defended by resistance at the start of the game so as you try to capture them, they will try to defend it, and if you succeed, they'll try to recapture it!<br />
 ",
 "<t size='1.4' color='#2394ef'>The Map</t><br /><br />
 The <t color='#e8bd12'>Map</t> contains all of the information that you need. First of all, you need to be aware of the colors<br /><br />
 - <t color='#e8bd12'>West</t> is identified by the <t color='#eaff96'>Blue</t> color.<br />
 - <t color='#e8bd12'>East</t> is identified by the <t color='#eaff96'>Red</t> color.<br />
-- <t color='#e8bd12'>Resistance</t> (or unknowns) is identified by the <t color='#eaff96'>Green</t> color.<br /><br />
-The <t color='#e8bd12'>Towns</t> are identified by a Flag marker as follow (a circle may appear around it which signify that the town is occupied):<br /><br />
+- <t color='#e8bd12'>Resistance</t> (or unknown) is identified by the <t color='#eaff96'>Green</t> color.<br /><br />
+The <t color='#e8bd12'>towns</t> are identified by a Flag marker as follows (a shaded/filled circle may appear around it which signifies that the town is occupied):<br /><br />
 <t align='center'><img image='\A3\ui_f\data\map\Markers\Military\flag_ca.paa' size='2'/></t><br /><br />
 While the <t color='#e8bd12'>MHQ</t> is identified by a specific marker labeled 'HQ' the <t color='#e8bd12'>Base Structures</t> are identified by an installation marker as follow:<br /><br />
 <t align='center'><img image='\A3\ui_f\data\map\Markers\NATO\b_installation.paa' size='2'/> <img image='\A3\ui_f\data\map\Markers\NATO\o_installation.paa' size='2'/></t><br /><br />
@@ -92,7 +92,7 @@ The <t color='#e8bd12'>Player Pool</t> and the <t color='#e8bd12'>Award Pool</t>
 "<t size='1.4' color='#2394ef'>Base Structures</t><br /><br />
 The <t color='#e8bd12'>Base Structures</t> can be used for different purposes. As soon as the player is in range of a structure he may decide to purchase additional units or vehicles from them. You may choose to buy a vehicle manned or empty (you may also buy a vehicle without a driver, gunner, commander or turrets).<br /><br />
 A <t color='#eaff96'>Control Center</t> will increase the purchase range of the different factories and add new commanding features to the Commander.<br /><br />
-You may also choose to change or reload your gear at the nearest <t color='#eaff96'>Barracks</t>.
+You may also choose to change or reload your gear at the nearest <t color='#eaff96'>Barracks</t> or FOB.
 ",
 "<t size='1.4' color='#2394ef'>Special Vehicles</t><br /><br />
 - Players may log on the <t color='#e8bd12'>MHQ</t> Satellite link to use the <t color='#eaff96'>Team Camera</t>. This mode allows you to overwatch the current Team Leaders or your side.<br /><br />
@@ -105,7 +105,7 @@ First step for player to begin duty as a Commander is to go to MHQ and in it's m
 The <t color='#e8bd12'>Commander</t> is reponsible for <t color='#eaff96'>Constructing Bases</t> and <t color='#eaff96'>Managing</t> the side's teams. He may also diminish or increase the <t color='#eaff96'>Player Pool</t> and the <t color='#eaff96'>Award Pool</t>.<br /><br />
 The responsabilities that falls on the Commander are heavier than a regular player. It is recommended to practice this role in SinglePlayer if you're not used to it (your team may be very angry at you otherwise).<br /><br />
 Your very first duty as Commander is to find a suitable <t color='#eaff96'>Base Location</t>, the perfect area should be flat, easily defensible and not too far away from the battlefield.<br /><br />
-Your second duty as Commander is to <t color='#eaff96'>Construct the Base</t>. <t color='#eaff96'>Barracks</t> and <t color='#eaff96'>Control Center</t> are a good choice for a start. Once you've decided on the location, you can open the <t color='#eaff96'>Build Menu</t> and place the desired structures. Those structures will appear as 'ruins' at first as they must be built up. Don't forget to hire <t color='#eaff96'>Workers</t> to construct the structures (Keep in mind that you're on a low budget at first!). You can also build structures on Your own using menu option 'Build' for ruins, while beeing close to ruins.<br /><br />
+Your second duty as Commander is to <t color='#eaff96'>Construct the Base</t>. <t color='#eaff96'>Barracks</t> and <t color='#eaff96'>Control Center</t> are a good choice for a start. Once you've decided on the location, you can open the <t color='#eaff96'>Build Menu</t> and place the desired structures. Those structures will appear as 'ruins' at first as they must be built up. Don't forget to hire <t color='#eaff96'>Workers</t> to construct the structures (keep in mind that you're on a low budget at first!). You can also build structures on your own using menu option 'Build' for ruins, while being close to ruins.<br /><br />
 From now on, the strategy is entirely up to you. You may create a <t color='#eaff96'>Light Vehicle Factory</t> for your side so that they may move faster to the battlefield or save up for a <t color='#eaff96'>Heavy Vehicle Factory</t> in order to perform an heavy attack. <t color='#eaff96'>Defenses</t> are very important in your base as enemy players may close in at any time!<br /><br />
 Commander can also set orders to Team Leaders, ie. to capture selected town, or go to some spot on map. This is true for both AI units and Player owned. It can be done in 'Map Commanding' part of Laptop Menu.
 Don't forget that a good Commander shall balance the needs of the base and the needs of his team.
@@ -149,23 +149,23 @@ This HUD functionnalities are: <br />
 The target are first local to the player, then as soon as the player is connected to the advance network, the target is registered across all network, alowing everyone to see it on the hud and on map.
 ",
 "<t size='1.4' color='#2394ef'>Trophy system</t><br /><br />
-The Trophy system is a real world <t color='#e8bd12'>Active Protection System (APS) </t> made by Rafael. It protect your heavy vehicle of soft targets (missiles and rockets).<br /><br />
-<t color='#e8bd12'>Without upgrades</t>, all MBTs and APCs starts with two ammos (one of each side), a 60 seconds cooldown and a 50% effectiveness. <br />
+The Trophy system is a real world <t color='#e8bd12'>Active Protection System (APS) </t> made by Rafael. It protects (to an extent) equipped vehicles from warhead threats (missiles and rockets).<br /><br />
+<t color='#e8bd12'>Before upgrades</t>, all MBTs and APCs start with two loads/shots (one on each side), a 60 second cooldown and a 50% effectiveness. <br />
 <br /><t color='#e8bd12'>Two blind spots are present:</t> one on the front between -20° and 20° and another on the back between 160 and 200 °.<br />
-<br />With the <t color='#e8bd12'>ammunition upgrade</t>, all side vehicles are getting two more ammunition each level (1 on each side).<br />
-<br />The <t color='#e8bd12'>Cooldown and effectiveness upgrade</t> increases working probability by 15% each level and reduces the cooldown time (60s /(1+level))<br /><br />
+<br />With each level of <t color='#e8bd12'>ammunition upgrade</t>, all of your equipped vehicles get two more shots (1 on each side).<br />
+<br />The <t color='#e8bd12'>cooldown and effectiveness upgrade</t> increases the effective probability by 15% each level and reduces the cooldown time (60s /(1+level))<br /><br />
 You can find the current <t color='#e8bd12'>status</t> of your trophy system in the <t color='#e8bd12'>vehicle hud.</t>",
 "<t size='1.4' color='#2394ef'>Remote Control</t><br /><br />
-Since the AI in ArmA III can be realy frustrating while driving, the ability of <t color='#e8bd12'>remote controling the drivers and pilots</t> have been introduced.<br/>
-You can initiate the remote controling using the <t color='#e8bd12'>action menu of the unit</t>. (F1-10 Keys and then the 6 key). <br />
+Since the AI in ArmA III can be really frustrating while driving, the ability to <t color='#e8bd12'>remote control the drivers and pilots</t> has been introduced.<br/>
+You can initiate the remote control using the <t color='#e8bd12'>action menu of the unit</t>. (F1-10 Keys and then the 6 key). <br />
 In order to be able to remote control, the following conditions must be all met <br />
 - The unit and player must be alive<br />
 - No gunner must be present in the vehicle<br />
-- The unit must be driver/ pilot of the vehicle<br />
+- The unit must be the driver/pilot of the vehicle<br />
 - The vehicle must be unlocked (BIS related)<br />
 - The player cannot be in the same vehicle<br />
 <br />
-Be aware that it migth disconnect you from your current uav.
+Be aware that this may disconnect you from any current UAV.
 ",
 "<t size='1.4' color='#2394ef'>Current Credits</t><br /><br />
 - <t color='#e8bd12'>Benny</t> for the mission<br />
@@ -178,6 +178,7 @@ Be aware that it migth disconnect you from your current uav.
 - <t color='#e8bd12'>Sari</t> for updating the sanitize scripts <br />
 - <t color='#e8bd12'>John681611</t> for his original idea of offroad aug.<br />
 - <t color='#e8bd12'>Henroth</t> for his Aircraft loadout customisation framework.<br /><br />
+- <t color='#e8bd12'>Red Hammer Studios</t> for their fantastic units and gear.<br /><br />
 
 <t color='#e8bd12'>And of course, everyone who gave feedback and bug reports.</t><br />"
 

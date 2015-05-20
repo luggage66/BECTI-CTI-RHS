@@ -1953,22 +1953,22 @@ class Mission
 			fillName="Border";
 			drawBorder=1;
 		};
-//		class Item60
-//		{
-//			position[]={20695.59,-0.0035000572,29702.387};
-//			name="TeamSpeak 3 (+Task Force Radio)";
-//			text="TeamSpeak 3 (+Task Force Radio) 173.199.67.8:9194";
-//			type="mil_triangle";
-//			colorName="ColorBlue";
-//		};
-//		class Item61
-//		{
-//			position[]={20701.777,0.00034531672,29993.232};
-//			name="EpicArma.com";
-//			text="EpicArma.com (Forum, Help, News)";
-//			type="mil_marker";
-//			colorName="ColorCIV";
-//		};
+		class Item60
+		{
+			position[]={20695.59,-0.0035000572,29602.387};
+			name="TeamSpeak 3";
+			text="TeamSpeak 3  paleron.typefrag.com";
+			type="mil_triangle";
+			colorName="ColorBlue";
+		};
+		class Item61
+		{
+			position[]={20701.777,0.00034531672,29993.232};
+			name="BECTI RHS";
+			text="BECTI - ZERTY - RHS";
+			type="mil_marker";
+			colorName="ColorCIV";
+		};
 	};
 };
 class Intro

@@ -81,7 +81,7 @@ class Params {
 		title = "RESPAWN: FOB Range";
 		values[] = {500,750,1000,1250,1500,1750,2000};
 		texts[] = {"0.50 KM","0.75 KM","1 KM","1.25 KM","1.5 KM","1.75 KM","2 KM"};
-		default = 1500;
+		default = 1250;
 	};
 	class CTI_RESPAWN_MOBILE {
 		title = "RESPAWN: Mobile";
@@ -179,7 +179,7 @@ class Params {
 		title = "Zerty: HeadLess Client Mode";
 		values[] = {0,1,2};
 		texts[] = {"Towns: Server + HCs | Patrols: HCs","Towns: HCs |  Patrols: HCs","Towns: Server |  Patrols: HCs"};
-		default = 2;
+		default = 1;
 	};
 	class CACHE_EMPTY {
 		title = "Zerty: Perf: PhysX Caching System";
@@ -258,14 +258,14 @@ class Params {
 		title = "Zerty: GROUPS: Size (AI) -- Resistance, West, East ";
 		values[] = {0,4,6,8,10,12,14,16};
 		texts[] = {"0","4","6","8","10","12","14","16"};
-		default = 12;
+		default = 10;
 	};
 
 	class CTI_PLAYERS_GROUPSIZE {
 		title = "Zerty: GROUPS: Size (Players) ";
 		values[] = {0,1,2,3,4,5,8,10,12,14,16};
 		texts[] = {"AutoAdaptative","1","2","3","4","5","8","10","12","14","16"};
-		default = 0;
+		default = 10;
 	};
 	class CTI_GAMEPLAY_MISSILES_RANGE {
 		title = "Zerty: GAMEPLAY: Missile Range";

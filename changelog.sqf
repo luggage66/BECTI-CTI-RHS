@@ -1,6 +1,6 @@
 
 player createDiarySubject ["TS", "TeamSpeak"];
-player createDiaryRecord ["TS",["Paleron.Typefrag.com"]];
+player createDiaryRecord ["TS",["Join us on TeamSpeak!","paleron.typefrag.com"]];
 
 
 player createDiarySubject ["CL", "Change Log"];
