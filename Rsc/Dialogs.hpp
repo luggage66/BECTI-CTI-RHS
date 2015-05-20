@@ -1812,7 +1812,7 @@ class CTI_RscTabletWorkersMenu {
 			y = "SafeZoneY+safezoneH*(0.590+0.005+0.04)";
 
 
-			text = "Sell Structure";
+			text = "Demolish Structure";
 			action = "['onStructureSellPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_WorkersMenu.sqf'";
 		};
 	};

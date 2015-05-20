@@ -36,7 +36,7 @@ _var = missionNamespace getVariable _variable;
 if !(_sell) then {
 	CTI_P_ChatID commandChat format ["A %1 has been destroyed at grid %2!", (_var select 0) select 1, mapGridPosition _position];
 } else {
-	CTI_P_ChatID commandChat format ["A %1 was sold at grid %2!", (_var select 0) select 1, mapGridPosition _position];
+	CTI_P_ChatID commandChat format ["A %1 was demolished at grid %2!", (_var select 0) select 1, mapGridPosition _position];
 };
 
 {
