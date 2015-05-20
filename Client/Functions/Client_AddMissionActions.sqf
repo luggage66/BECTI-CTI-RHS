@@ -25,11 +25,11 @@
 player setcaptive false;
 0 call HUD_PBar_stop;
 player addaction ["<t color='#86F078'>Online Help</t>",'createdialog "CTI_RscTabletOnlineHelpMenu";', [], -99];
-player addAction ["<t color='#2E9AFE'>Parachute|Парашют</t>", "Common\Init\para.sqf", nil, 2, true, true, "", "vehicle player == player && getpos player select 2 >30;"];
-player addAction ["<t color='#FF0000'>Emergency eject|Катапультироваться</t>", "Common\Init\forceEject.sqf", nil, 19, false, true, "", "(vehicle player) isKindOf 'Air'"];
-player addAction ["<t color='#FF0000'>Holster|Убрать оружие</t>", "player action ['SwitchWeapon', player, player, 100];", nil, -11, false, false, "", "currentWeapon player != '' && vehicle player == player"];
-player addAction ["<t color='#FF0000'>UnHolster|Достать оружие</t>", "player action ['SwitchWeapon', player, player, 0];", nil, -11, false, false, "", "currentWeapon player == '' && vehicle player == player"];
-player addAction ["<t color='#FF0000'>Clean up|Очистить от мусора</t>", "Common\Init\removeRuins.sqf", nil, 2, false, false, "", "count nearestObjects [player, ['Ruins', 'CraterLong', 'CraterLong_small'], 5] > 0"];
+player addAction ["<t color='#2E9AFE'>Parachute</t>", "Common\Init\para.sqf", nil, 2, true, true, "", "vehicle player == player && getpos player select 2 >30;"];
+player addAction ["<t color='#FF0000'>Emergency eject</t>", "Common\Init\forceEject.sqf", nil, 19, false, true, "", "(vehicle player) isKindOf 'Air'"];
+player addAction ["<t color='#FF0000'>Holster</t>", "player action ['SwitchWeapon', player, player, 100];", nil, -11, false, false, "", "currentWeapon player != '' && vehicle player == player"];
+player addAction ["<t color='#FF0000'>UnHolster</t>", "player action ['SwitchWeapon', player, player, 0];", nil, -11, false, false, "", "currentWeapon player == '' && vehicle player == player"];
+player addAction ["<t color='#FF0000'>Clean up</t>", "Common\Init\removeRuins.sqf", nil, 2, false, false, "", "count nearestObjects [player, ['Ruins', 'CraterLong', 'CraterLong_small'], 5] > 0"];
 //LUL WHAT DLC???
 if !(288520 in getDLCs 1) then
 {
@@ -37,8 +37,8 @@ if !(288520 in getDLCs 1) then
 };
 if !(304380 in getDLCs 1) then
 {
-	[player addAction ["<t color='#00FFFF'>Driver|Пилот</t>", "Common\Init\moveInDriver.sqf", [], 6, true, true, "", "cursorTarget isKindOf 'O_Heli_Transport_04_F' && player distance cursorTarget < 10 && isNull driver cursorTarget"]] ;
-	[player addAction ["<t color='#00FFFF'>Driver|Пилот</t>", "Common\Init\moveInDriver.sqf", [], 6, true, true, "", "cursorTarget isKindOf 'B_Heli_Transport_03_unarmed_F' && player distance cursorTarget < 10 && isNull driver cursorTarget"]] ;
+	[player addAction ["<t color='#00FFFF'>Driver</t>", "Common\Init\moveInDriver.sqf", [], 6, true, true, "", "cursorTarget isKindOf 'O_Heli_Transport_04_F' && player distance cursorTarget < 10 && isNull driver cursorTarget"]] ;
+	[player addAction ["<t color='#00FFFF'>Driver</t>", "Common\Init\moveInDriver.sqf", [], 6, true, true, "", "cursorTarget isKindOf 'B_Heli_Transport_03_unarmed_F' && player distance cursorTarget < 10 && isNull driver cursorTarget"]] ;
 };
 //titleCut["","BLACK IN",1];
 player addEventHandler ["fired", {_this execvm "Common\Init\RHS_disposables.sqf"}];
