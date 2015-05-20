@@ -32,13 +32,13 @@ class CfgDebriefing {
 	class End6 {
 		title = "WARNING";
 		subtitle = "";
-		description = "You have team swapped. This is not your original team, please join the side which you've joined at the beginning of the game.";
+		description = "Вы поменяли команду. Вернитесь в команду, за которую вы зашли в начале игры через лобби. >>>>You have team swapped. This is not your original team, please join the side which you've joined at the beginning of the game.";
 		pictureBackground = "";
 	};
 	class End7 {
 		title = "TEAM STACKING";
 		subtitle = "";
-		description = "You probably have not seen that the oposite team needs players, please join that side.";
+		description = "Включена балансировка. Вам нужно зайти за другую команду для начала игры. >>>>> You probably have not seen that the oposite team needs players, please join that side.";
 		pictureBackground = "";
 	};
 };

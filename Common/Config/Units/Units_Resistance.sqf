@@ -138,6 +138,41 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['rhs_btr70_chdkz'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2000];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhs_bmd2_chdkz'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [3000];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhs_t72bb_chdkz'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [5000];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhs_zsu234_chdkz'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [2500];
+_t = _t + [20];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
 /*
 _c = _c + ['I_MRAP_03_hmg_F'];
 _p = _p + [''];
