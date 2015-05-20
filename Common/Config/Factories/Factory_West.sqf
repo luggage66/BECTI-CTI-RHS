@@ -47,7 +47,6 @@ _u = _u		+ ["rhsusf_army_ocp_marksman"];
 _u = _u		+ ["rhsusf_army_ocp_medic"];
 _u = _u		+ ["rhsusf_army_ocp_engineer"];
 _u = _u		+ ["rhsusf_army_ocp_grenadier"];
-_u = _u		+ ["rhsusf_army_ocp_medic"];
 _u = _u		+ ["rhsusf_army_ocp_crewman"];
 _u = _u		+ ["rhsusf_army_ocp_helipilot"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
