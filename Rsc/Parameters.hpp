@@ -27,19 +27,19 @@ class Params {
 		title = "BASE: FOB Limit";
 		values[] = {0,1,2,3,4,5,6,7,8,9,10};
 		texts[] = {"Disabled","1","2","3","4","5","6","7","8","9","10"};
-		default = 4;
+		default = 6;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";
 		values[] = {2000,3000,4000,5000,6000,7000,8000,9000,10000,12000,15000,20000};
 		texts[] = {"2 KM","3 KM","4 KM","5 KM","6 KM","7 KM","8 KM","9 KM","10 KM","12 KM","15 KM","20 KM"};
-		default = 12000;
+		default = 15000;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
 		values[] = {15,30,45,60,90,120,160,190};
 		texts[] = {"00:15 Minute","00:30 Minute","00:45 Minute","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 30;
+		default = 15;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
@@ -75,13 +75,13 @@ class Params {
 		title = "RESPAWN: AI Members";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_RESPAWN_FOB_RANGE {
 		title = "RESPAWN: FOB Range";
 		values[] = {500,750,1000,1250,1500,1750,2000};
 		texts[] = {"0.50 KM","0.75 KM","1 KM","1.25 KM","1.5 KM","1.75 KM","2 KM"};
-		default = 1750;
+		default = 1500;
 	};
 	class CTI_RESPAWN_MOBILE {
 		title = "RESPAWN: Mobile";
@@ -105,25 +105,25 @@ class Params {
 		title = "UNITS: Aircraft FFAR";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_AA {
 		title = "UNITS: Aircraft AA Missiles";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_AT {
 		title = "UNITS: Aircraft AT Missiles";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_CM {
 		title = "UNITS: Aircraft Countermeasures";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_MARKERS_INFANTRY {
 		title = "UNITS: Show Map Infantry";
@@ -135,13 +135,13 @@ class Params {
 		title = "UNITS: Fatigue";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
 		values[] = {60,120,180,240,300,600,1200,1800,2400,3000,3600};
 		texts[] = {"1 Minute","2 Minutes","3 Minutes","4 Minutes","5 Minutes","10 Minutes","20 Minutes","30 Minutes","40 Minutes","50 Minutes","1 Hour"};
-		default = 3600;
+		default = 1800;
 	};
 	class CTI_GRAPHICS_TG_MAX {
 		title = "VISUAL: Terrain Grid";
@@ -164,7 +164,7 @@ class Params {
 		default = 1;
 	};
 	class CTI_PERSISTANT {
-		title = "Zerty: PERSISTANCY";
+		title = "Zerty: Persistency";
 		values[] = {0,1};
 		texts[] = {"DISABLED", "ENABLED"};
 		default = 0;
@@ -178,7 +178,7 @@ class Params {
 	class HC_MODE {
 		title = "Zerty: HeadLess Client Mode";
 		values[] = {0,1,2};
-		texts[] = {"Towns:Server + HCs | patrols:HCs","Towns : HCs |  Patrols : HCs","Towns : Server |  Patrols : HCs"};
+		texts[] = {"Towns: Server + HCs | Patrols: HCs","Towns: HCs |  Patrols: HCs","Towns: Server |  Patrols: HCs"};
 		default = 2;
 	};
 	class CACHE_EMPTY {
@@ -205,7 +205,7 @@ class Params {
 	class CTI_AI_SKILL {
 		title = "Zerty: AI: Skill (credit : Bl1p, fluit)";
 		values[] = {1,2,3,4,5};
-		texts[] = {"Retards","DumbFucks","NotSobad","Good","Very Good"};
+		texts[] = {"Retards","DumbAsses","NotSobad","Good","Very Good"};
 		default = 4;
 	};
 
@@ -213,7 +213,7 @@ class Params {
 		title = "Zerty: MISSION : Time Limit";
 		values[] = {0,2,4,6,8,12,24};
 		texts[] = {"Never","2h","4h","6h","8h","12h","24h"};
-		default = 0;
+		default = 12;
 	};
 	class MIN_TOWNS {
 		title = "Zerty: MISSION: Minimum number of towns";
@@ -251,14 +251,14 @@ class Params {
 		title = "Zerty: GROUPS: Respawn on leader";
 		values[] = {0,1};
 		texts[] = {"False","True"};
-		default = 1;
+		default = 0;
 	};
 
 	class CTI_AI_TEAMS_GROUPSIZE {
 		title = "Zerty: GROUPS: Size (AI) -- Resistance, West, East ";
 		values[] = {0,4,6,8,10,12,14,16};
 		texts[] = {"0","4","6","8","10","12","14","16"};
-		default = 16;
+		default = 12;
 	};
 
 	class CTI_PLAYERS_GROUPSIZE {
@@ -277,7 +277,7 @@ class Params {
 		title = "Zerty: GAMEPLAY: 3P view";
 		values[] = {-1,0,1,2};
 		texts[] = {"All","No group view","Vehicle","None"};
-		default = 0;
+		default = 2;
 	};
 	class CTI_GAMEPLAY_REARM_AMMO {
 		title = "Zerty: GAMEPLAY: Gear On Ammo Trucks";
@@ -289,7 +289,7 @@ class Params {
 		title = "Zerty: GAMEPLAY: Gear On MED Trucks";
 		values[] = {0,1,2,3,4,100};
 		texts[] = {"Always","Upg 1","Upg 2","Upg 3","Upg 4","Off"};
-		default = 3;
+		default = 100;
 	};
 	class CTI_BASEBUILDING {
 		title = "Zerty: GAMEPLAY: Base building";
@@ -313,13 +313,13 @@ class Params {
 		title = "Zerty: GAMEPLAY: No NVs, No Thermal";
 		values[] = {0,1};
 		texts[] = {"false","true"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_ECONOMY_BASE_PLAYER_INCOME {
 		title = "Zerty: INCOME: base income for players";
 		values[] = {0,10,25,50,100,150,200,250};
 		texts[] = {"0$","10$","25$","50$","100$","150$","200$","250$"};
-		default = 25;
+		default = 0;
 	};
 	class CTI_VEHICLES_BOUNTY {
 		title = "Zerty: INCOME: On kill";
@@ -337,7 +337,7 @@ class Params {
 		title = "Zerty: RESPAWN : On occupied towns";
 		values[] = {0,1,2};
 		texts[] = {"False","Closest", "All"};
-		default = 2;
+		default = 0;
 	};
 	class CTI_TOWNS_INCOME_RATIO {
 		title = "Zerty: TOWNS: Value Ratio";
@@ -349,7 +349,7 @@ class Params {
 		title = "Zerty: TOWNS: Value Award Ratio";
 		values[] = {1,2,3,4,5,10};
 		texts[] = {"1","2","3","4","5","10"};
-		default = 10;
+		default = 5;
 	};
 	class CTI_TOWNS_RESISTANCE_DETECTION_RANGE {
 		title = "Zerty: TOWNS: Detection Range";
@@ -373,7 +373,7 @@ class Params {
 		title = "Zerty: TOWNS : Shop price ratio";
 		values[] = {1,2,3,5,10,100};
 		texts[] = {"1","2","3","5","10","100"};
-		default = 1;
+		default = 2;
 	};
 
 	class CTI_WEATHER_INITIAL {
@@ -399,7 +399,7 @@ class Params {
 		title = "Zerty: WEATHER: Time ratio";
 		values[] = {1,2,3,4,5,6,7,8,9,10,11,12};
 		texts[] = {"x1","x2","x3","x4","x5","x6","x7","x8","x9","x10","x11","x12"};
-		default = 4;
+		default = 2;
 	};
 	class SEPARATOR2 {
 		title = "===================== Strategic Mode =======================";
@@ -425,7 +425,7 @@ class Params {
 		title = "Zerty: Strategic: Patrols number";
 		values[] = {2,5,8,10,15,20};
 		texts[] = {"2","5","8","10","15","20"};
-		default = 8;
+		default = 5;
 	};*/
 
 	class CTI_SM_MORTARS {
@@ -450,7 +450,7 @@ class Params {
 		title = "Zerty: Strategic: Town CAS if value above";
 		values[] = {0,100,150,200,250,300,350,400,500,600};
 		texts[] = {"0","100","150","200","250","300","350","400","500","600"};
-		default = 250;
+		default = 350;
 	};
 
 
@@ -470,13 +470,13 @@ class Params {
 		title = "Zerty: Electronic Warfare : Tactical HUD target report sensitivity";
 		values[] = {1,2,3,4,5};
 		texts[] = {"high","medium high", "medium low", "low","Disable target report"};
-		default = 5;
+		default = 2;
 	};
 	class CTI_EW_HUD_I {
 		title = "Zerty: Electronic Warfare : Tactical HUD report infantry";
 		values[] = {0,1};
 		texts[] = {"false","true"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_EW_ANET {
 		title = "Zerty: Electronic Warfare : Field Network Meshing";

@@ -1,26 +1,26 @@
-class CfgDebriefing {
+﻿class CfgDebriefing {
 	class End1 {
 		title = "Mission Completed";
 		subtitle = "";
-		description = "We won! Enemy have lost all facilities!";
+		description = "We won! The enemy has lost all of their facilities!";
 		pictureBackground = "";
 	};
 	class End2 {
 		title = "Mission Failed";
 		subtitle = "";
-		description = "We lost! Our HQ is destroyed, and we dont have anymore factories!";
+		description = "We lost! Our HQ is destroyed, and we dont have any factories!";
 		pictureBackground = "";
 	};
 	class End3 {
 		title = "Mission Completed";
 		subtitle = "";
-		description = "We won! We capped enougth towns to assure victory!";
+		description = "We won! We capped enough towns to assure an economic victory!";
 		pictureBackground = "";
 	};
 	class End4 {
 		title = "Mission Failed";
 		subtitle = "";
-		description = "We lost! The enemy has captured enougth towns to hold the island!";
+		description = "We lost! The enemy has captured enough towns to hold the island!";
 		pictureBackground = "";
 	};
 	class End5 {
@@ -32,13 +32,13 @@ class CfgDebriefing {
 	class End6 {
 		title = "WARNING";
 		subtitle = "";
-		description = "Вы поменяли команду. Вернитесь в команду, за которую вы зашли в начале игры через лобби. >>>>You have team swapped. This is not your original team, please join the side which you've joined at the beginning of the game.";
+		description = "You have swapped teams. This is not your original team, please revert to the side you originally joined.";
 		pictureBackground = "";
 	};
 	class End7 {
 		title = "TEAM STACKING";
 		subtitle = "";
-		description = "Включена балансировка. Вам нужно зайти за другую команду для начала игры. >>>>> You probably have not seen that the oposite team needs players, please join that side.";
+		description = "You are team stacking.  The other side needs players, please help them out!";
 		pictureBackground = "";
 	};
 };

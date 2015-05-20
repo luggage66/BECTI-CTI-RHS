@@ -4,20 +4,20 @@ respawnDelay = 10;
 respawnDialog = false;
 
 //--- Require briefing.html to show up.
-onLoadMission = "BECTI RHS 0.97 - Zerty 1.3.1.0";
+onLoadMission = "BECTI - Zerty - RHS";
 onLoadMissionTime = false;
-onLoadName = "BECTI RHS 0.97 - Zerty 1.3.1.0";
+onLoadName = "BECTI - Zerty - RHS";
 
-briefingName = "BECTI RHS 0.97 - Zerty 1.3.1.0";
+briefingName = "BECTI - Zerty - RHS";
 
 //--- ArmA 3 Specifics
 dev = "Benny";
-author = "Benny; Modified by Zerty [JMW]; DartNecrON";
+author = "Benny; Moded by Zerty [JMW], DartNecrON, Blind Firepower";
 // overviewPicture
 
 //--- Properties.
 class Header {
 	gameType = CTI;
 	minPlayers = 1;
-	maxPlayers = 53;
+	maxPlayers = 24;
 };

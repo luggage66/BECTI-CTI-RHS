@@ -26,8 +26,8 @@ class Mission
 	randomSeed=7374927;
 	class Intel
 	{
-		briefingName="BECTI RHS USAF Altis 1.3.1.0 ";
-		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin);Zerty;DartNecrON";
+		briefingName="BECTI - ZERTY - RHS";
+		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin); Zerty ; DartNecrON; Blind";
 		resistanceWest=0;
 		startWeather=0;
 		startWind=0;
@@ -37,9 +37,9 @@ class Mission
 		forecastWaves=0.099999994;
 		forecastLightnings=0.099999994;
 		year=2012;
-		month=6;
+		month=9;
 		day=21;
-		hour=12;
+		hour=10;
 		minute=0;
 		startFogBase=0.001;
 		forecastFogBase=0.001;
@@ -1953,22 +1953,22 @@ class Mission
 			fillName="Border";
 			drawBorder=1;
 		};
-		class Item60
-		{
-			position[]={20695.59,-0.0035000572,29702.387};
-			name="TeamSpeak 3 (+Task Force Radio)";
-			text="TeamSpeak 3 (+Task Force Radio) 173.199.67.8:9194";
-			type="mil_triangle";
-			colorName="ColorBlue";
-		};
-		class Item61
-		{
-			position[]={20701.777,0.00034531672,29993.232};
-			name="EpicArma.com";
-			text="EpicArma.com (Forum, Help, News)";
-			type="mil_marker";
-			colorName="ColorCIV";
-		};
+//		class Item60
+//		{
+//			position[]={20695.59,-0.0035000572,29702.387};
+//			name="TeamSpeak 3 (+Task Force Radio)";
+//			text="TeamSpeak 3 (+Task Force Radio) 173.199.67.8:9194";
+//			type="mil_triangle";
+//			colorName="ColorBlue";
+//		};
+//		class Item61
+//		{
+//			position[]={20701.777,0.00034531672,29993.232};
+//			name="EpicArma.com";
+//			text="EpicArma.com (Forum, Help, News)";
+//			type="mil_marker";
+//			colorName="ColorCIV";
+//		};
 	};
 };
 class Intro

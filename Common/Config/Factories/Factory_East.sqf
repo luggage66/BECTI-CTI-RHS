@@ -14,9 +14,8 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["RHS_Ural_MSV_01", [
 		["rhs_weap_ak74m", 2], ["rhs_30Rnd_545x39_7n10_AK", 50],
 		["rhs_weap_rpg7", 5], ["rhs_rpg7_PG7VL_mag", 20],
-		["HandGrenade", 20],
-		["30Rnd_556x45_Stanag", 15],
-		["30Rnd_65x39_caseless_green_mag_Tracer", 6],
+		["rhs_weap_ak74m_gp25", 1],
+		["rhs_mag_rgd5", 20],
 		["1Rnd_HE_Grenade_shell", 24],
 		["UGL_FlareRed_F", 27],
 		["1Rnd_SmokeRed_Grenade_shell", 9],
@@ -48,10 +47,11 @@ _u = _u		+ ['rhs_msv_machinegunner'];
 _u = _u		+ ['rhs_msv_machinegunner_assistant'];
 _u = _u		+ ['rhs_msv_medic'];
 _u = _u		+ ['rhs_msv_engineer'];
-_u = _u		+ ['rhs_msv_crew'];
+_u = _u		+ ['rhs_msv_crew'];	
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
 _u 			= ['O_Quadbike_01_F'];
+/*
 _u = _u		+ ["O_G_Offroad_01_F"];
 _u = _u		+ ["O_G_Offroad_01_armed_F"];
 _u = _u		+ ['O_Truck_02_transport_F'];
@@ -60,6 +60,7 @@ _u = _u		+ ['C_Hatchback_01_sport_F'];
 _u = _u		+ ['C_SUV_01_F'];
 _u = _u		+ ['C_Van_01_transport_F'];
 _u = _u		+ ['C_Van_01_box_F'];
+*/
 _u = _u		+ ['RHS_UAZ_MSV_01'];
 _u = _u		+ ['RHS_UAZ_Open_MSV_01'];
 _u = _u		+ ['rhs_tigr_msv'];
@@ -71,8 +72,8 @@ _u = _u		+ ['RHS_Ural_Open_MSV_01'];
 _u = _u		+ ['RHS_Ural_MSV_01'];
 _u = _u		+ ['rhs_typhoon_vdv'];
 _u = _u		+ ['O_UGV_01_F'];
-_u = _u		+ ['O_UGV_01_rcws_F'];
-_u = _u		+ ['O_Truck_03_medical_F'];
+//_u = _u		+ ['O_UGV_01_rcws_F'];
+//_u = _u		+ ['O_Truck_03_medical_F'];
 _u = _u		+ ['rhs_btr60_msv'];
 _u = _u		+ ['rhs_btr70_msv'];
 _u = _u		+ ['rhs_btr80_msv'];
@@ -111,26 +112,26 @@ _u = _u		+ ["rhs_bmd1r"];
 _u = _u		+ ["rhs_t80um"];
 _u = _u		+ ["rhs_t80ue1"];
 _u = _u		+ ["rhs_t80u45m"];
-_u = _u		+ ["rhs_9k79_B"];
+//_u = _u		+ ["rhs_9k79_B"];
 _u = _u		+ ["rhs_9k79_K"];
 _u = _u		+ ["rhs_9k79"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
 _u 			= ['O_Heli_Light_02_unarmed_F'];
-_u = _u		+ ['O_Heli_Transport_04_F'];
-_u = _u		+ ['O_Heli_Light_02_F'];
-_u = _u		+ ['O_Heli_Attack_02_F'];
-_u = _u		+ ['O_Heli_Attack_02_black_F'];
+//_u = _u		+ ['O_Heli_Transport_04_F'];
+//_u = _u		+ ['O_Heli_Light_02_F'];
+//_u = _u		+ ['O_Heli_Attack_02_F'];
+//_u = _u		+ ['O_Heli_Attack_02_black_F'];
 _u = _u		+ ['O_UAV_02_CAS_F'];
-_u = _u		+ ['O_UAV_02_F'];
-_u = _u		+ ['O_Plane_CAS_02_F'];
+//_u = _u		+ ['O_UAV_02_F'];
+//_u = _u		+ ['O_Plane_CAS_02_F'];
 //_u = _u		+ ['I_Heli_light_03_unarmed_F'];
 //_u = _u		+ ['I_Heli_light_03_F'];
 _u = _u		+ ['I_Heli_Transport_02_F'];
 _u = _u		+ ['I_Plane_Fighter_03_CAS_F'];
 _u = _u		+ ['I_Plane_Fighter_03_AA_F'];
-_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
+//_u = _u		+ ['Land_Pod_Heli_Transport_04_bench_F'];
 _u = _u		+ ['Land_Pod_Heli_Transport_04_medevac_F'];
 _u = _u		+ ['RHS_Ka52_vvs'];
 _u = _u		+ ['RHS_Su25SM_vvs'];
@@ -154,16 +155,17 @@ _u = _u		+ ['RHS_Mi8AMT_vdv'];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
 _u 			= ["O_Truck_02_box_F"];
-_u = _u		+ ["O_Truck_03_repair_F"];
+//_u = _u		+ ["O_Truck_03_repair_F"];
 _u = _u		+ ["CTI_Salvager_East"];
-_u = _u		+ ["O_Truck_02_fuel_F"];
-_u = _u		+ ["O_Truck_03_fuel_F"];
+//_u = _u		+ ["O_Truck_02_fuel_F"];
+_u = _u		+ ["rhs_gaz66_repair_msv"];
+_u = _u		+ ["RHS_Ural_Fuel_MSV_01"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_repair_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_fuel_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];
 
-_u 			= ["O_Truck_02_Ammo_F"];
-_u = _u		+ ["O_Truck_03_Ammo_F"];
+_u 			= ["rhs_gaz66_repair_vv"];
+//_u = _u		+ ["O_Truck_02_Ammo_F"];
 _u = _u		+ ["Land_Pod_Heli_Transport_04_ammo_F"];
 _u = _u		+ ["O_CargoNet_01_ammo_F"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AMMO], _u];
@@ -177,6 +179,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_NAVAL], _u];
 //--- Units - FLAG
 
 _u = ['rhs_msv_rifleman'];
+_u = _u		+ ['rhs_msv_crew'];
 _u = _u		+ ['rhs_weapons_crate_ak'];
 /*
 _u = _u		+ ['Box_East_Ammo_F'];
@@ -190,7 +193,7 @@ _u = _u		+ ['O_CargoNet_01_ammo_F'];
 */
 _u = _u		+ ['O_Quadbike_01_F'];
 _u = _u		+ ['O_G_Offroad_01_F'];
-_u = _u		+ ['O_G_Offroad_01_armed_F'];
+//_u = _u		+ ['O_G_Offroad_01_armed_F'];
 _u = _u		+ ['C_Hatchback_01_F'];
 _u = _u		+ ['C_Hatchback_01_sport_F'];
 _u = _u		+ ['C_SUV_01_F'];
