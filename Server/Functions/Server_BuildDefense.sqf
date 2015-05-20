@@ -82,6 +82,8 @@ if (_defense isKindOf "Building") then {
 
 if (_fob) then {
 	[["CLIENT", _side], "Client_OnSpecialConstructed", [_defense, "FOB"]] call CTI_CO_FNC_NetSend;
+  _defense setVariable ["spawn_tickets", CTI_BASE_FOB_START_SPAWNS, true];
+  [["CLIENT", _side], "Client_OnMessageReceived", ["fob_placed", [CTI_BASE_FOB_START_SPAWNS]]] call CTI_CO_FNC_NetSend;
 	_logic setVariable ["cti_fobs", (_logic getVariable "cti_fobs") + [_defense], true];
 
 };

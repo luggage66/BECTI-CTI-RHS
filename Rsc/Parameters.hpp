@@ -29,6 +29,12 @@ class Params {
 		texts[] = {"Disabled","1","2","3","4","5","6","7","8","9","10"};
 		default = 6;
 	};
+	class CTI_BASE_FOB_START_SPAWNS {
+		title = "BASE: FOB Limit";
+		values[] = {0, 10};
+		texts[] = {"Disabled","10"};
+		default = 10;
+	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";
 		values[] = {2000,3000,4000,5000,6000,7000,8000,9000,10000,12000,15000,20000};

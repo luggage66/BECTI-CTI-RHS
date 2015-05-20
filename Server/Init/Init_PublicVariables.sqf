@@ -123,6 +123,7 @@ with missionNamespace do {
 	CTI_PVF_Request_Upgrade = { _this spawn CTI_SE_FNC_StartUpgrade };
 	CTI_PVF_Request_EventDestroyedHQ = { _this spawn CTI_SE_FNC_OnHQDestroyed };
 	CTI_PVF_Request_HQRepair = { _this spawn CTI_SE_FNC_RepairHQ };
+	CTI_PVF_Spawned_At_FOB = { _this spawn CTI_SE_FNC_SpawnedAtFOB };
 
 
 	CTI_PVF_Request_TownAddVehicles = {

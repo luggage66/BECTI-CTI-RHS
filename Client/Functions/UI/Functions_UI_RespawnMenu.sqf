@@ -1,5 +1,5 @@
 CTI_UI_Respawn_GetAvailableLocations = {
-	private ["_fobs", "_hq", "_ignore_mobile_crew", "_list", "_mobile", "_structures"];
+	private ["_fobs", "_hq", "_ignore_mobile_crew", "_list", "_mobile", "_structures", "_hasRespawnsLeft"];
 
 	_list = [];
 
@@ -12,7 +12,13 @@ CTI_UI_Respawn_GetAvailableLocations = {
 	//--- Add FOBs if available.
 	if (CTI_BASE_FOB_MAX > 0) then {
 		_fobs = CTI_P_SideLogic getVariable ["cti_fobs", []];
-		{if (alive _x && _x distance CTI_DeathPosition <= CTI_RESPAWN_FOB_RANGE) then {[_list, _x] call CTI_CO_FNC_ArrayPush}} forEach _fobs;
+		{
+			_hasRespawnsLeft = (_x getVariable "spawn_tickets") > 0;
+
+			if (alive _x && _x distance CTI_DeathPosition <= CTI_RESPAWN_FOB_RANGE && _hasRespawnsLeft) then {
+				[_list, _x] call CTI_CO_FNC_ArrayPush;
+			}
+		} forEach _fobs;
 	};
 	// --- zerty was here for towns
 	_towns = [];
@@ -243,6 +249,12 @@ CTI_UI_Respawn_OnRespawnReady = {
 	};
 	CTI_P_LastRespawnTime=time;
 	if !(_respawn_ai) then { //--- Stock respawn
+		_spawn_tickets = _where getVariable "spawn_tickets";
+
+		if (!isNil "_spawn_tickets") then {
+			["SERVER", "Spawned_At_FOB", [CTI_P_SideJoined, _where]] call CTI_CO_FNC_NetSend;
+		};
+
 		_spawn_at = [_where, 8, 30] call CTI_CO_FNC_GetRandomPosition;
 		player setPos _spawn_at;
 	};
@@ -297,7 +309,7 @@ CTI_UI_Respawn_OnRespawnReady = {
 		};
 		[player, _respawn_ai_gear] call CTI_CO_FNC_EquipUnit; //--- Equip the equipment of the AI on the player
 	};
-	if ((missionNamespace getVariable "CTI_UNITS_FATIGUE") == 0) then {player enableFatigue false}; //--- Disable the unit's fatigue
+	if ((missionNamespace getVariable "CTI_UNITS_FATIGUE") == 0) then { player enableFatigue false; }; //--- Disable the unit's fatigue
 	CTI_P_Respawning = false;
 };
 
