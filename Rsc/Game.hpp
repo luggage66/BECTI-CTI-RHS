@@ -1,6 +1,6 @@
 //--- Respawn options.
 respawn = 3;
-respawnDelay = 10;
+respawnDelay = 15;
 respawnDialog = false;
 
 //--- Require briefing.html to show up.
