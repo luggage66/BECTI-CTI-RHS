@@ -1158,7 +1158,7 @@ _u = _u		+ [0];
 _p = _p		+ [10];
 
 _i = _i		+ ["rhs_mag_30Rnd_556x45_Mk262_Stanag"];
-_u = _u		+ [3];
+_u = _u		+ [0];
 _p = _p		+ [20];
 
 _i = _i		+ ["rhs_mag_30Rnd_556x45_M855A1_Stanag"];

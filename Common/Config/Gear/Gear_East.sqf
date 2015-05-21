@@ -1149,7 +1149,7 @@ _u = _u		+ [2];
 _p = _p		+ [250];
 
 _i = _i		+ ["rhs_rpg7_PG7VL_mag"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_rpg7_PG7VR_mag"];
@@ -1157,7 +1157,7 @@ _u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_rpg7_OG7V_mag"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_rpg7_TBG7V_mag"];
@@ -1308,7 +1308,7 @@ _u = _u		+ [2];
 _p = _p		+ [50];
 
 _i = _i		+ ["rhs_weap_rpg7"];
-_u = _u		+ [1];
+_u = _u		+ [2];
 _p = _p		+ [50];
 
 _i = _i		+ ["rhs_weap_igla"];
