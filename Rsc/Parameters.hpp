@@ -30,10 +30,10 @@ class Params {
 		default = 6;
 	};
 	class CTI_BASE_FOB_START_SPAWNS {
-		title = "BASE: FOB Limit";
-		values[] = {0, 10};
+		title = "BASE: FOB Respawn Limit";
+		values[] = {9999, 30};
 		texts[] = {"Disabled","10"};
-		default = 10;
+		default = 30;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
 		title = "BASE: Startup Placement";

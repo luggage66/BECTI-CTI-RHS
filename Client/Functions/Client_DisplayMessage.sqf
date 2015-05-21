@@ -101,6 +101,6 @@ switch (_message_var) do {
 	case "take_com": {CTI_P_ChatID commandChat format ["::Commander:: Player %1 has taken command of your side. ", _parameters select 0];};
 	case "leave_com": {CTI_P_ChatID commandChat format ["::Commander:: Player %1 has left command of your side. ", _parameters select 0];};
 	case "eject_com": {CTI_P_ChatID commandChat format ["::Commander:: Player %1 has been relieved of Command. ", _parameters select 0];};
-  case "fob_placed": {CTI_P_ChatID commandChat format ["A FOB has been placed with %1 respawns", _parameters select 0];};
+  case "fob_placed": {CTI_P_ChatID commandChat format ["A FOB has been placed with %1 respawns.", _parameters select 0];};
   case "fob_spawn": {CTI_P_ChatID commandChat format ["The FOB at %1 has %2 remaining spawns.", mapGridPosition (_parameters select 0), (_parameters select 0) getVariable "spawn_tickets"];};
 };
