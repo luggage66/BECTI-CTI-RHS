@@ -32,7 +32,7 @@ class Params {
 	class CTI_BASE_FOB_START_SPAWNS {
 		title = "BASE: FOB Respawn Limit";
 		values[] = {9999, 30};
-		texts[] = {"Disabled","10"};
+		texts[] = {"Disabled","30"};
 		default = 30;
 	};
 	class CTI_BASE_STARTUP_PLACEMENT {
@@ -45,7 +45,7 @@ class Params {
 		title = "INCOME: Delay";
 		values[] = {15,30,45,60,90,120,160,190};
 		texts[] = {"00:15 Minute","00:30 Minute","00:45 Minute","01:00 Minute","01:30 Minutes","02:00 Minutes","02:30 Minutes","03:00 Minutes"};
-		default = 15;
+		default = 30;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST_COMMANDER {
 		title = "INCOME: Starting Funds (East Commander)";
@@ -313,7 +313,7 @@ class Params {
 		title = "Zerty: GAMEPLAY: Darter Fuel limitation";
 		values[] = {0,1};
 		texts[] = {"Disabled", "Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_SM_NONV {
 		title = "Zerty: GAMEPLAY: No NVs, No Thermal";
