@@ -413,6 +413,8 @@ CTI_BASE_GEAR_RANGE = 150; //--- Determine how far a player has to be from a Bar
 CTI_BASE_PURCHASE_UNITS_RANGE = 150; //--- Determine how far a player has to be from a factory to access the Factory Menu without CC
 CTI_BASE_PURCHASE_UNITS_RANGE_CC = 7500; //--- Determine how far a player has to be from a factory to access the Factory Menu with CC
 
+CTI_TOWN_PURCHASE_UNITS_RANGE = 50;
+
 //--- Base: Workers
 CTI_BASE_WORKERS_BUILD_COEFFICIENT = 1; //--- Worker build speed multiplier (<coefficient> / (<structure build time> / 100)), higher is faster.
 CTI_BASE_WORKERS_BUILD_RANGE = 20; //--- Worker minimal build distance.
