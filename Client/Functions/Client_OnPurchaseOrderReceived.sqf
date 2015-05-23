@@ -166,7 +166,8 @@ if (_model isKindOf "Man") then {
 	player reveal _vehicle;
 
 	//--- Authorize the air loadout depending on the parameters set
-	if (_vehicle isKindOf "Air") then {[_vehicle, CTI_P_SideJoined] call CTI_CO_FNC_SanitizeAircraft};
+	if (_vehicle isKindOf "Air") then {[_vehicle, CTI_P_SideJoined] call CTI_CO_FNC_SanitizeAircraft;};
+	if (_vehicle isKindOf "LandVehicle") then { [_vehicle, CTI_P_SideJoined] call CTI_CO_FNC_SanitizeLandVehicle;};
 
 	//--- Sanitize the artillery loadout, mines may lag the server for instance
 	if (CTI_ARTILLERY_FILTER == 1) then {if (_model in (missionNamespace getVariable ["CTI_ARTILLERY", []])) then {(_vehicle) call CTI_CO_FNC_SanitizeArtillery}};

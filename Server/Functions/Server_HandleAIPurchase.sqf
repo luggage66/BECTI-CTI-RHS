@@ -101,6 +101,7 @@ if (_funds < _cost) exitWith { [_req_seed, _req_classname, _req_target, _factory
 if (typeName _req_target == "SIDE") then { _req_target = createGroup _req_side };
 
 _vehicle = objNull;
+diag_log format ["type %1", typeOf _model];
 if (_model isKindOf "Man") then {
 	_vehicle = [_model, _req_target, _position, _sideID, _net] call CTI_CO_FNC_CreateUnit;
 } else {
@@ -121,9 +122,8 @@ if (_model isKindOf "Man") then {
 	[_vehicle] spawn CTI_SE_FNC_HandleEmptyVehicle;
 
 	//--- Authorize the air loadout depending on the parameters set
-	if (_vehicle isKindOf "Air") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeAircraft};
-	systemChat format ["type %1", typeOf _vehicle];
- 	if (_vehicle isKindOf "LandVehicle") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeLandVehicle};
+	if (_vehicle isKindOf "Air") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeAircraft;};
+ 	if (_vehicle isKindOf "LandVehicle") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeLandVehicle;};
 	// _req_target addVehicle _vehicle;
 };
 
