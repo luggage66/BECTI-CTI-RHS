@@ -122,6 +122,7 @@ if (_model isKindOf "Man") then {
 	
 	//--- Authorize the air loadout depending on the parameters set
 	if (_vehicle isKindOf "Air") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeAircraft};
+	if (_vehicle isKindOf "LandVehicle") then {[_vehicle, _req_side] call CTI_CO_FNC_SanitizeLandVehicle;};
 	// _req_target addVehicle _vehicle;
 };
 
