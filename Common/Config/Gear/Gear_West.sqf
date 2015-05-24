@@ -826,6 +826,7 @@ _i = _i		+ ["B_UAV_01_backpack_F"];
 _u = _u		+ [2];
 _p = _p		+ [250];
 
+/*
 _i = _i		+ ["B_HMG_01_support_F"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -849,6 +850,8 @@ _p = _p		+ [200];
 _i = _i		+ ["B_GMG_01_high_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [300];
+*/
+
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["B_Mortar_01_support_F"];
 _u = _u		+ [3];
@@ -1772,7 +1775,7 @@ _p = _p		+ [5];
 
 _i = _i		+ ["RHS_M2_Gun_Bag"];
 _u = _u		+ [2];
-_p = _p		+ [300];
+_p = _p		+ [400];
 
 _i = _i		+ ["RHS_M2_Tripod_Bag"];
 _u = _u		+ [2];
@@ -1788,7 +1791,7 @@ _p = _p		+ [50];
 
 _i = _i		+ ["RHS_M2_MiniTripod_Bag"];
 _u = _u		+ [2];
-_p = _p		+ [400];
+_p = _p		+ [75];
 
 _i = _i		+ ["rhsusf_spc"];
 _u = _u		+ [0];

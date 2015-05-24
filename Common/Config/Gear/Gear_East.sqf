@@ -218,6 +218,7 @@ _i = _i		+ ["Chemlight_blue"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
+/*
 _i = _i		+ ["FlareWhite_F"];
 _u = _u		+ [0];
 _p = _p		+ [2];
@@ -234,7 +235,6 @@ _i = _i		+ ["FlareYellow_F"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
-/*
 _i = _i		+ ["1Rnd_HE_Grenade_shell"];
 _u = _u		+ [0];
 _p = _p		+ [2];
@@ -784,9 +784,6 @@ _i = _i		+ ["B_Carryall_oucamo"];
 _u = _u		+ [3];
 _p = _p		+ [30];
 
-
-
-
 _i = _i		+ ["B_Parachute"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -795,6 +792,7 @@ _i = _i		+ ["O_UAV_01_backpack_F"];
 _u = _u		+ [1];
 _p = _p		+ [250];
 
+/*
 _i = _i		+ ["O_HMG_01_support_F"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -818,6 +816,8 @@ _p = _p		+ [200];
 _i = _i		+ ["O_GMG_01_high_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [300];
+*/
+
 if !(MADE_FOR_STRATIS) then {
 _i = _i		+ ["O_Mortar_01_support_F"];
 _u = _u		+ [3];

@@ -12,7 +12,7 @@ briefingName = "BECTI - Zerty - RHS";
 
 //--- ArmA 3 Specifics
 dev = "Benny";
-author = "Benny; Moded by Zerty [JMW], DartNecrON, Blind Firepower";
+author = "Benny; Moded by Zerty [JMW], DartNecrON, Blind Firepower, Paleron";
 // overviewPicture
 
 //--- Properties.

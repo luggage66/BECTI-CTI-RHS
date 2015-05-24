@@ -27,7 +27,7 @@ class Mission
 	class Intel
 	{
 		briefingName="BECTI - ZERTY - RHS";
-		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin); Zerty ; DartNecrON; Blind";
+		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin); Zerty ; DartNecrON; Blind Firepower; Paleron";
 		resistanceWest=0;
 		startWeather=0;
 		startWind=0;

@@ -823,8 +823,8 @@ _s = _s + [""];
 
 _c = _c + ['RHS_Mi8AMT_vdv'];
 _p = _p + [''];
-_n = _n + ['MI-8 AMT Mobile HQ'];
-_o = _o + [100000];
+_n = _n + ['MI-8 Medevac (Respawn)'];
+_o = _o + [12000];
 _t = _t + [30];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
