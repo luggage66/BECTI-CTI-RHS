@@ -30,7 +30,7 @@ _p = _p		+ [5];
 
 _i = _i		+ ["SatchelCharge_Remote_Mag"];
 _u = _u		+ [2];
-_p = _p		+ [20];
+_p = _p		+ [25];
 
 _i = _i		+ ["DemoCharge_Remote_Mag"];
 _u = _u		+ [1];
@@ -170,9 +170,7 @@ _p = _p		+ [2];
 _i = _i		+ ["HandGrenade_Stone"];
 _u = _u		+ [0];
 _p = _p		+ [1];
-*/
 
-/*
 _i = _i		+ ["SmokeShell"];
 _u = _u		+ [0];
 _p = _p		+ [2];
@@ -748,9 +746,11 @@ _i = _i		+ ["B_AssaultPack_khk"];
 _u = _u		+ [0];
 _p = _p		+ [15];
 
+/*
 _i = _i		+ ["B_FieldPack_ocamo"];
 _u = _u		+ [0];
 _p = _p		+ [15];
+*/
 
 _i = _i		+ ["B_Kitbag_cbr"];
 _u = _u		+ [1];
@@ -760,6 +760,7 @@ _i = _i		+ ["B_Bergen_sgg_Exp"];
 _u = _u		+ [1];
 _p = _p		+ [25];
 
+/*
 _i = _i		+ ["B_Carryall_ocamo"];
 _u = _u		+ [3];
 _p = _p		+ [30];
@@ -767,6 +768,7 @@ _p = _p		+ [30];
 _i = _i		+ ["B_Carryall_mcamo"];
 _u = _u		+ [3];
 _p = _p		+ [30];
+*/
 
 _i = _i		+ ["B_Carryall_cbr"];
 _u = _u		+ [3];
@@ -780,9 +782,11 @@ _i = _i		+ ["B_Carryall_oli"];
 _u = _u		+ [3];
 _p = _p		+ [30];
 
+/*
 _i = _i		+ ["B_Carryall_oucamo"];
 _u = _u		+ [3];
 _p = _p		+ [30];
+*/
 
 _i = _i		+ ["B_Parachute"];
 _u = _u		+ [1];
@@ -1081,15 +1085,15 @@ _p = _p		+ [1];
 
 _i = _i		+ ["Toolkit"];
 _u = _u		+ [0];
-_p = _p		+ [25];
+_p = _p		+ [100];
 
 _i = _i		+ ["FirstAidKit"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [5];
 
 _i = _i		+ ["Medikit"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [100];
 
 _i = _i		+ ["rhs_mine_pmn2"];
 _u = _u		+ [1];
@@ -1154,7 +1158,7 @@ _p = _p		+ [5];
 
 _i = _i		+ ["rhs_rpg7_PG7VR_mag"];
 _u = _u		+ [2];
-_p = _p		+ [5];
+_p = _p		+ [15];
 
 _i = _i		+ ["rhs_rpg7_OG7V_mag"];
 _u = _u		+ [2];
@@ -1162,8 +1166,9 @@ _p = _p		+ [5];
 
 _i = _i		+ ["rhs_rpg7_TBG7V_mag"];
 _u = _u		+ [2];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
+/*
 _i = _i		+ ["rhs_rpg26_mag"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -1171,6 +1176,7 @@ _p = _p		+ [5];
 _i = _i		+ ["rhs_rshg2_mag"];
 _u = _u		+ [1];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["rhs_mag_rgd5"];
 _u = _u		+ [0];
@@ -1317,12 +1323,13 @@ _p = _p		+ [500];
 
 _i = _i		+ ["rhs_weap_rpg18"];
 _u = _u		+ [0];
-_p = _p		+ [25];
+_p = _p		+ [15];
 
+/*
 _i = _i		+ ["rhs_rpg18_mag"];
 _u = _u		+ [0];
 _p = _p		+ [25];
-
+*/
 
 _i = _i		+ ["rhs_weap_rpg26"];
 _u = _u		+ [1];
@@ -1330,7 +1337,7 @@ _p = _p		+ [30];
 
 _i = _i		+ ["rhs_weap_rshg2"];
 _u = _u		+ [1];
-_p = _p		+ [30];
+_p = _p		+ [25];
 
 //--- Uniforms
 _i = _i		+ ["rhs_uniform_flora"];
@@ -1362,7 +1369,7 @@ _p = _p		+ [15];
 //--- Vests
 _i = _i		+ ["rhs_6b23"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [5];
 
 _i = _i		+ ["rhs_6b23_crewofficer"];
 _u = _u		+ [0];
@@ -1406,7 +1413,7 @@ _p = _p		+ [10];
 
 _i = _i		+ ["rhs_6b23_digi"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [5];
 
 _i = _i		+ ["rhs_6b23_digi_crewofficer"];
 _u = _u		+ [0];
@@ -1451,7 +1458,7 @@ _p = _p		+ [10];
 //mflora
 _i = _i		+ ["rhs_6b23_ML"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [5];
 
 _i = _i		+ ["rhs_6b23_ML_crewofficer"];
 _u = _u		+ [0];
@@ -1497,7 +1504,7 @@ _p = _p		+ [10];
 //other
 _i = _i		+ ["rhs_6sh46"];
 _u = _u		+ [0];
-_p = _p		+ [10];
+_p = _p		+ [5];
 
 _i = _i		+ ["rhs_vest_commander"];
 _u = _u		+ [0];
@@ -1514,11 +1521,11 @@ _p = _p		+ [15];
 
 _i = _i		+ ["rhs_assault_umbts_engineer"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [115];
 
 _i = _i		+ ["rhs_sidor"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhs_rpg"];
 _u = _u		+ [0];
@@ -2106,6 +2113,7 @@ _i = _i		+ ["U_O_FullGhillie_sard"];
 _u = _u		+ [3];
 _p = _p		+ [20];
 
+/*
 _i = _i		+ ["V_PlateCarrierGL_blk"];
 _u = _u		+ [3];
 _p = _p		+ [20];
@@ -2173,6 +2181,7 @@ _p = _p		+ [5];
 _i = _i		+ ["optic_KHS_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["muzzle_snds_338_black"];
 _u = _u		+ [3];
@@ -2228,9 +2237,11 @@ _p = _p		+ [5];
 
 //static designator
 
+/*
 _i = _i		+ ["O_Static_Designator_02_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [200];
+*/
 
 //added rangefinders
 _i = _i		+ ["lerca_1200_black"];

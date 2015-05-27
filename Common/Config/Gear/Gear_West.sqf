@@ -30,7 +30,7 @@ _p = _p		+ [5];
 
 _i = _i		+ ["SatchelCharge_Remote_Mag"];
 _u = _u		+ [2];
-_p = _p		+ [20];
+_p = _p		+ [25];
 
 _i = _i		+ ["DemoCharge_Remote_Mag"];
 _u = _u		+ [1];
@@ -41,7 +41,7 @@ _u = _u		+ [1];
 _p = _p		+ [10];
 
 _i = _i		+ ["Laserbatteries"];
-_u = _u		+ [2];
+_u = _u		+ [3];
 _p = _p		+ [5];
 
 /*
@@ -750,7 +750,6 @@ _i = _i		+ ["V_Chestrig_rgr"];
 _u = _u		+ [0];
 _p = _p		+ [30];
 
-
 _i = _i		+ ["V_PlateCarrierL_CTRG"];
 _u = _u		+ [1];
 _p = _p		+ [25];
@@ -769,6 +768,7 @@ _u = _u		+ [1];
 _p = _p		+ [15];
 
 //--- Backpacks
+
 /*
 _i = _i		+ ["B_AssaultPack_mcamo"];
 _u = _u		+ [0];
@@ -811,12 +811,11 @@ _i = _i		+ ["B_Carryall_oli"];
 _u = _u		+ [3];
 _p = _p		+ [30];
 
+/*
 _i = _i		+ ["B_Carryall_oucamo"];
 _u = _u		+ [3];
 _p = _p		+ [30];
-
-
-
+*/
 
 _i = _i		+ ["B_Parachute"];
 _u = _u		+ [1];
@@ -1109,11 +1108,9 @@ _i = _i		+ ["Laserdesignator"];
 _u = _u		+ [3];
 _p = _p		+ [500];
 
-
 _i = _i		+ ["ItemGPS"];
 _u = _u		+ [0];
 _p = _p		+ [10];
-
 
 _i = _i		+ ["MineDetector"];
 _u = _u		+ [0];
@@ -1353,11 +1350,11 @@ _p = _p		+ [50];
 
 _i = _i		+ ["rhs_weap_M136"];
 _u = _u		+ [0];
-_p = _p		+ [30];
+_p = _p		+ [15];
 
 _i = _i		+ ["rhs_weap_M136_hedp"];
 _u = _u		+ [1];
-_p = _p		+ [30];
+_p = _p		+ [25];
 
 _i = _i		+ ["rhs_weap_M136_hp"];
 _u = _u		+ [1];
@@ -1375,7 +1372,7 @@ _p = _p		+ [30];
 
 _i = _i		+ ["rhs_weap_fgm148"];
 _u = _u		+ [3];
-_p = _p		+ [1500];
+_p = _p		+ [600];
 
 _i = _i		+ ["rhs_weap_fim92"];
 _u = _u		+ [2];
@@ -1397,31 +1394,31 @@ _p = _p		+ [5];
 
 _i = _i		+ ["rhsusf_iotv_ucp_medic"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_grenadier"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_repair"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_rifleman"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_SAW"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_squadleader"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ucp_teamleader"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp"];
 _u = _u		+ [0];
@@ -1429,31 +1426,31 @@ _p = _p		+ [5];
 
 _i = _i		+ ["rhsusf_iotv_ocp_medic"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_grenadier"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_repair"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_rifleman"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_SAW"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_squadleader"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 _i = _i		+ ["rhsusf_iotv_ocp_teamleader"];
 _u = _u		+ [0];
-_p = _p		+ [5];
+_p = _p		+ [10];
 
 //--- Backpacks
 _i = _i		+ ["rhsusf_assault_eagleaiii_ucp"];
@@ -1466,15 +1463,15 @@ _p = _p		+ [15];
 
 _i = _i		+ ["rhsusf_assault_eagleaiii_ocp_engineer"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [115];
 
 _i = _i		+ ["rhsusf_assault_eagleaiii_ocp_medic"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [115];
 
 _i = _i		+ ["rhsusf_assault_eagleaiii_ocp_demo"];
 _u = _u		+ [0];
-_p = _p		+ [15];
+_p = _p		+ [45];
 
 _i = _i		+ ["rhsusf_falconii"];
 _u = _u		+ [0];
@@ -2121,6 +2118,7 @@ _i = _i		+ ["U_B_FullGhillie_sard"];
 _u = _u		+ [3];
 _p = _p		+ [20];
 
+/*
 _i = _i		+ ["V_PlateCarrierGL_blk"];
 _u = _u		+ [3];
 _p = _p		+ [20];
@@ -2188,6 +2186,7 @@ _p = _p		+ [5];
 _i = _i		+ ["optic_KHS_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["muzzle_snds_338_black"];
 _u = _u		+ [3];
@@ -2243,9 +2242,11 @@ _p = _p		+ [5];
 
 //static designator
 
+/*
 _i = _i		+ ["B_Static_Designator_01_weapon_F"];
 _u = _u		+ [2];
 _p = _p		+ [200];
+*/
 
 //0.3.7
 

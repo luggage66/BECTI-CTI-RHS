@@ -12,7 +12,7 @@ _l=[];
 //barrack
 _l=_l+			[["Factory: Barracks", "Unlock better infantry units"]];
 _a=_a	+			[true];
-_c=_c +			[[1000,2000,3000]];
+_c=_c +			[[2000,4000,6000]];
 _lev=_lev+	[3];
 _lin=_lin+	[[[CTI_UPGRADE_GEAR,1],[CTI_UPGRADE_GEAR,2],[CTI_UPGRADE_GEAR,3]]];
 _t=_t+			[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,30*CTI_UPGRADE_RATIO]];
@@ -23,29 +23,29 @@ _a=_a	+			[true];
 _c=_c +			[[5000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[]]];
-_t=_t+			[[90*CTI_UPGRADE_RATIO]];
+_t=_t+			[[80*CTI_UPGRADE_RATIO]];
 
 
 _l=_l+			[["Factory: Heavy Factory", "Unlock better armored units"]];
 _a=_a	+			[true];
-_c=_c +			[[10000,50000]];
+_c=_c +			[[15000,50000]];
 _lev=_lev+	[2];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[]]];
 _t=_t+			[[180*CTI_UPGRADE_RATIO,240*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: Aircraft Factory", "Unlock better aircraft units"]];
 _a=_a	+			[true];
-_c=_c +			[[25000]];
+_c=_c +			[[35000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[]]];
-_t=_t+			[[90*CTI_UPGRADE_RATIO]];
+_t=_t+			[[120*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Factory: AAF technologies", "Unlock AAF units (1::MRAPS, 2::APC , 3::TRACKED, 4::CHOPPERS, 5::PLANES)"]];
 _a=_a	+			[true];
 _c=_c +			[[1500,2500,4000,6000,8000]];
 _lev=_lev+	[5];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_AIR,1],[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,50*CTI_UPGRADE_RATIO,60*CTI_UPGRADE_RATIO,70*CTI_UPGRADE_RATIO]];
+_t=_t+			[[20*CTI_UPGRADE_RATIO,30*CTI_UPGRADE_RATIO,50*CTI_UPGRADE_RATIO,60*CTI_UPGRADE_RATIO,70*CTI_UPGRADE_RATIO]];
 
 
 _l=_l+			[["Air: Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"]];
@@ -65,14 +65,14 @@ _t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Air: Aircraft AA", "Unlocks the Anti Air Missiles for Aircrafts"]];
 _a=_a	+			[true];
-_c=_c +			[[50000]];
+_c=_c +			[[30000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
 _t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Air: Aircraft Countermeasures", "Allows Aircraft to deploy countermeasures"]];
 _a=_a	+			[true];
-_c=_c +			[[8000]];
+_c=_c +			[[6000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
 _t=_t+			[[60*CTI_UPGRADE_RATIO]];
@@ -81,14 +81,14 @@ _t=_t+			[[60*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Equipment: Gear", "Allows the use of better equipment in the Gear Menu"]];
 _a=_a	+			[true];
-_c=_c +			[[2000, 4000, 7500]];
+_c=_c +			[[3000, 6000, 12000]];
 _lev=_lev+	[3];
 _lin=_lin+	[[[],[],[]]];
 _t=_t+			[[20*CTI_UPGRADE_RATIO, 40*CTI_UPGRADE_RATIO, 60*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Equipment: Tactical Hud", "Enable Tactical HUD for every unit equiped with tactical sunglasses"]];
 _a=_a	+			[True];
-_c=_c +			[[9000]];
+_c=_c +			[[10000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[CTI_UPGRADE_GEAR,3]]];
 _t=_t+			[[120*CTI_UPGRADE_RATIO]];
@@ -109,10 +109,10 @@ _t=_t+			[[120*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Other: Halo Jump", "Enable HALO Jumping from the Air factory"]];
 _a=_a	+			[True];
-_c=_c +			[[4000]];
+_c=_c +			[[5000]];
 _lev=_lev+	[1];
 _lin=_lin+	[[[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO]];
+_t=_t+			[[40*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Radar: Air Radar", "Enable Air Radars"]];
 _a=_a	+			[True];
@@ -149,14 +149,14 @@ _a=_a	+			[True];
 _c=_c +			[[6000,12000]];
 _lev=_lev+	[2];
 _lin=_lin+	[[[CTI_UPGRADE_TRA, 1],[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO]];
+_t=_t+			[[30*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO]];
 
 _l=_l+			[["Trophy: Max Ammos", "Augment maximum ammunition for the trophy system"]];
 _a=_a	+			[True];
 _c=_c +			[[6000,12000]];
 _lev=_lev+	[2];
 _lin=_lin+	[[[CTI_UPGRADE_HEAVY, 1],[]]];
-_t=_t+			[[20*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO]];
+_t=_t+			[[30*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO]];
 
 _l=_l+				[["Respawn Truck/Pod: Range", "Increase the max range of the respawn truck. 500m + lvl x 500m "]];
 _a=_a	+			[True];
@@ -164,6 +164,7 @@ _c=_c +				[[1000,2000,4000,8000,16000]];
 _lev=_lev+			[5];
 _lin=_lin+			[[[],[]]];
 _t=_t+				[[10*CTI_UPGRADE_RATIO,20*CTI_UPGRADE_RATIO,40*CTI_UPGRADE_RATIO,80*CTI_UPGRADE_RATIO,160*CTI_UPGRADE_RATIO]];
+
 /*
 _l=_l+			[["Network: Reconfiguration cycle", "Lower Mesh Network reconfiguration cycle time (600s - 60s*lvl)"]];
 _a=_a	+			[false];
