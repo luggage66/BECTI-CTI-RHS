@@ -810,13 +810,14 @@ _s = _s + [""];
 
 _c = _c + ['RHS_UH60M_MEV'];
 _p = _p + [''];
-_n = _n + [''];
-_o = _o + [10000];
+_n = _n + ['UH-60 Medevac (Respawn)'];
+_o = _o + [12000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
-_s = _s + [""];
+_s = _s + ["service-medic"];
 
+/*
 _c = _c + ['rhs_uh60m_mev2'];
 _p = _p + [''];
 _n = _n + ['UH-60 Medevac (Respawn)'];
@@ -825,6 +826,7 @@ _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + ["service-medic"];
+*/
 
 _c = _c + ['RHS_A10'];
 _p = _p + [''];
@@ -1218,8 +1220,6 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AMMO];
 _s = _s + ["service-ammotruck"];
 
-
-
 _c = _c + ["B_Slingload_01_Repair_F"];
 _p = _p + [''];
 _n = _n + [''];
@@ -1265,6 +1265,7 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + ["service-gear"];
 
+/*
 _c = _c + ["I_Heli_Transport_02_F"];
 _p = _p + [''];
 _n = _n + [''];
@@ -1273,7 +1274,7 @@ _t = _t + [35];
 _u = _u + [4];
 _f = _f + [4];
 _s = _s + [""];
-
+*/
 
 _c = _c + ['rhsusf_weapons_crate'];
 _p = _p + [''];

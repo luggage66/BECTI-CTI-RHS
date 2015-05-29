@@ -27,7 +27,7 @@ class Mission
 	class Intel
 	{
 		briefingName="BECTI - ZERTY - RHS";
-		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin); Zerty ; DartNecrON; Blind Firepower; Paleron";
+		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin); Zerty; DartNecrON; Blind Firepower; Paleron";
 		resistanceWest=0;
 		startWeather=0;
 		startWind=0;
@@ -37,7 +37,7 @@ class Mission
 		forecastWaves=0.099999994;
 		forecastLightnings=0.099999994;
 		year=2012;
-		month=9;
+		month=6;
 		day=21;
 		hour=10;
 		minute=0;

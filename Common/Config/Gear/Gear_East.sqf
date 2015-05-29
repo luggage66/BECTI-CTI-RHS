@@ -1521,7 +1521,7 @@ _p = _p		+ [15];
 
 _i = _i		+ ["rhs_assault_umbts_engineer"];
 _u = _u		+ [0];
-_p = _p		+ [115];
+_p = _p		+ [15];
 
 _i = _i		+ ["rhs_sidor"];
 _u = _u		+ [0];
