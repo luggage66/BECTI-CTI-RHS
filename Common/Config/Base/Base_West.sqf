@@ -304,13 +304,13 @@ if ((missionNamespace getVariable "CTI_RESPAWN_FOB_RANGE")> 0) then {
 	_categories = _categories 	+ ["Fortification"];
 };
 _headers = _headers 		+ ["MG Defense"];
-_classes = _classes 		+ ["B_HMG_01_High_F"];
+_classes = _classes 		+ ["RHS_M2StaticMG_D"];
 _prices = _prices 			+ [200];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["GL Defense"];
-_classes = _classes 		+ ["B_GMG_01_high_F"];
+_classes = _classes 		+ ["RHS_MK19_TriPod_D"];
 _prices = _prices 			+ [350];
 _placements = _placements 	+ [[180, 5]];
 _categories = _categories 	+ ["Defense"];
