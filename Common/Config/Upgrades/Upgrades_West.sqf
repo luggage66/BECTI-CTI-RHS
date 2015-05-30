@@ -40,13 +40,14 @@ _lev=_lev+	[1];
 _lin=_lin+	[[[]]];
 _t=_t+			[[120*CTI_UPGRADE_RATIO]];
 
+/*
 _l=_l+			[["Factory: AAF technologies", "Unlock AAF units (1::MRAPS, 2::APC , 3::TRACKED, 4::CHOPPERS, 5::PLANES)"]];
 _a=_a	+			[true];
 _c=_c +			[[1500,2500,4000,6000,8000]];
 _lev=_lev+	[5];
 _lin=_lin+	[[[CTI_UPGRADE_LIGHT,1],[],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_AIR,1],[]]];
 _t=_t+			[[20*CTI_UPGRADE_RATIO,30*CTI_UPGRADE_RATIO,50*CTI_UPGRADE_RATIO,60*CTI_UPGRADE_RATIO,70*CTI_UPGRADE_RATIO]];
-
+*/
 
 _l=_l+			[["Air: Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"]];
 _a=_a	+			[true];
