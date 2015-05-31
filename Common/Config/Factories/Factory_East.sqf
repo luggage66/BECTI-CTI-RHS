@@ -118,7 +118,7 @@ _u = _u		+ ["rhs_9k79"];
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 
-_u 			= ['O_Heli_Light_02_unarmed_F'];
+//_u 			= ['O_Heli_Light_02_unarmed_F'];
 //_u = _u		+ ['O_Heli_Transport_04_F'];
 //_u = _u		+ ['O_Heli_Light_02_F'];
 //_u = _u		+ ['O_Heli_Attack_02_F'];

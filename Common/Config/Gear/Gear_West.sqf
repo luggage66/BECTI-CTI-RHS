@@ -875,8 +875,8 @@ _u = _u		+ [0];
 _p = _p		+ [2];
 
 _i = _i		+ ["G_Tactical_Clear"];
-_u = _u		+ [1];
-_p = _p		+ [4];
+_u = _u		+ [3];
+_p = _p		+ [200];
 
 _i = _i		+ ["G_Sport_Blackred"];
 _u = _u		+ [0];
