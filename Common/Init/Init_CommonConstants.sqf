@@ -397,7 +397,7 @@ CTI_BASE_DEFENSES_AUTO_DELAY = 20; //--- Delay after which a new unit will repla
 CTI_BASE_DEFENSES_AUTO_LIMIT = 15; //--- Amount of independent units which may man nearby defenses
 CTI_BASE_DEFENSES_AUTO_RANGE = 500; //--- Range from the nearest barrack at which AI may auto man a defense
 CTI_BASE_DEFENSES_AUTO_REARM_RANGE = 500; //--- Range needed for a defense to be able to rearm at a service point
-CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 4800; //--- Delay after which an empty defense is considered empty
+CTI_BASE_DEFENSES_EMPTY_TIMEOUT = 9600; //--- Delay after which an empty defense is considered empty
 
 //--- Base: HQ
 CTI_BASE_HQ_REPAIR_PRICE = 40000; //--- The cost needed to repair the HQ
