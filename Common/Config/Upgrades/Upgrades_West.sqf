@@ -53,7 +53,7 @@ _l=_l+			[["Air: Aircraft FFAR", "Unlocks the FFAR Rockets for Aircrafts"]];
 _a=_a	+			[true];
 _c=_c +			[[10000]];
 _lev=_lev+	[1];
-_lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
+_lin=_lin+	[[[]]];
 _t=_t+			[[90*CTI_UPGRADE_RATIO]];
 
 
@@ -75,7 +75,7 @@ _l=_l+			[["Air: Aircraft Countermeasures", "Allows Aircraft to deploy counterme
 _a=_a	+			[true];
 _c=_c +			[[6000]];
 _lev=_lev+	[1];
-_lin=_lin+	[[[CTI_UPGRADE_AIR, 1]]];
+_lin=_lin+	[[[]]];
 _t=_t+			[[60*CTI_UPGRADE_RATIO]];
 
 
