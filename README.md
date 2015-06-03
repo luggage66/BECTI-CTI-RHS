@@ -1,4 +1,6 @@
-# Benny-Edition-CTI-0.97-Zerty-Modification
+# Benny-Edition-CTI-0.97-Zerty-Modification (RHS)
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/luggage66/BECTI-ZERTY-RHS.Altis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ##Monetization
 This mission (or code that I own inside) __cannot__ be used in a monetization process as defined by BiS at http://www.bistudio.com/monetization & http://www.bistudio.com/monetization/faq
