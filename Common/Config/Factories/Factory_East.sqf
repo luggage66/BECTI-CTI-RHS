@@ -123,7 +123,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_HEAVY], _u];
 //_u = _u		+ ['O_Heli_Light_02_F'];
 //_u = _u		+ ['O_Heli_Attack_02_F'];
 //_u = _u		+ ['O_Heli_Attack_02_black_F'];
-_u = _u		+ ['O_UAV_02_CAS_F'];
+_u				= ['O_UAV_02_CAS_F'];
 //_u = _u		+ ['O_UAV_02_F'];
 //_u = _u		+ ['O_Plane_CAS_02_F'];
 _u = _u		+ ['I_Heli_light_03_unarmed_F'];
