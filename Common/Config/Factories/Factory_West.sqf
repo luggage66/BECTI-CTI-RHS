@@ -78,7 +78,7 @@ _u = _u		+ ["rhsusf_m113_usarmy"];
 _u = _u		+ ["rhsusf_rg33_d"];
 _u = _u		+ ["rhsusf_rg33_wd"];
 _u = _u		+ ["rhsusf_rg33_m2_d"];
-_u = _u		+ ["rhsusf_rg33_m2_wd"];
+//_u = _u		+ ["rhsusf_rg33_m2_wd"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 
 
