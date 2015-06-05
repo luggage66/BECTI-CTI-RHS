@@ -926,6 +926,7 @@ _u = _u		+ [0];
 _p = _p		+ [5];
 
 //--- Accessories
+/*
 _i = _i		+ ["muzzle_snds_acp"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -950,7 +951,6 @@ _i = _i		+ ["muzzle_snds_M"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
-/*
 _i = _i		+ ["optic_arco"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -966,6 +966,7 @@ _p = _p		+ [5];
 _i = _i		+ ["optic_MRCO"];
 _u = _u		+ [0];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["optic_Aco"];
 _u = _u		+ [0];
@@ -975,6 +976,7 @@ _i = _i		+ ["optic_ACO_grn"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["optic_SOS"];
 _u = _u		+ [2];
 _p = _p		+ [15];
@@ -1010,11 +1012,13 @@ _p = _p		+ [20];
 _i = _i		+ ["optic_DMS"];
 _u = _u		+ [2];
 _p = _p		+ [10];
+*/
 
 _i = _i		+ ["optic_LRPS"];
 _u = _u		+ [2];
 _p = _p		+ [10];
 
+/*
 _i = _i		+ ["optic_MRD"];
 _u = _u		+ [1];
 _p = _p		+ [5];
@@ -2013,6 +2017,7 @@ _i = _i		+ ["AGM_JerryCan"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["srifle_DMR_04_F"];
 _u = _u		+ [3];
 _p = _p		+ [200];
@@ -2042,7 +2047,7 @@ _p = _p		+ [200];
 _i = _i		+ [["srifle_DMR_04_NS_LP_F"]];
 _u = _u		+ [3];
 _p = _p		+ [200];
-
+*/
 
 
 _i = _i		+ ["srifle_DMR_05_blk_F"];
@@ -2181,7 +2186,6 @@ _p = _p		+ [5];
 _i = _i		+ ["optic_KHS_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
-*/
 
 _i = _i		+ ["muzzle_snds_338_black"];
 _u = _u		+ [3];
@@ -2194,6 +2198,7 @@ _p = _p		+ [5];
 _i = _i		+ ["muzzle_snds_338_sand"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["muzzle_snds_93mmg"];
 _u = _u		+ [3];
@@ -2203,6 +2208,7 @@ _i = _i		+ ["muzzle_snds_93mmg_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["bipod_01_F_blk"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -2214,6 +2220,7 @@ _p = _p		+ [5];
 _i = _i		+ ["bipod_01_F_snd"];
 _u = _u		+ [0];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["bipod_02_F_blk"];
 _u = _u		+ [0];
@@ -2227,6 +2234,7 @@ _i = _i		+ ["bipod_02_F_tan"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["bipod_03_F_blk"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -2234,6 +2242,7 @@ _p = _p		+ [5];
 _i = _i		+ ["bipod_03_F_oli"];
 _u = _u		+ [0];
 _p = _p		+ [5];
+*/
 
 //static designator
 

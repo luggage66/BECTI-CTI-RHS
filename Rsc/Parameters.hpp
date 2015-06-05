@@ -57,7 +57,7 @@ class Params {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 3200;
+		default = 6000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
@@ -69,7 +69,7 @@ class Params {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000"};
-		default = 3200;
+		default = 6000;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";
@@ -325,13 +325,13 @@ class Params {
 		title = "Zerty: INCOME: base income for players";
 		values[] = {0,10,25,50,100,150,200,250};
 		texts[] = {"0$","10$","25$","50$","100$","150$","200$","250$"};
-		default = 0;
+		default = 25;
 	};
 	class CTI_VEHICLES_BOUNTY {
 		title = "Zerty: INCOME: On kill";
 		values[] = {0,25,50,75,100};
 		texts[] = {"No value","Low value","Medium value","High value","Full value"};
-		default = 75;
+		default = 50;
 	};
 	class CTI_PLAYER_REEQUIP {
 		title = "Zerty: RESPAWN : Reequip Gear";

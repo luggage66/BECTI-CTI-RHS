@@ -327,6 +327,24 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 
+_c = _c + ['rhsusf_rg33_m2_d'];
+_p = _p + [''];
+_n = _n + ['RG 33 Desert M2'];
+_o = _o + [1100];
+_t = _t + [25];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_rg33_m2_wd'];
+_p = _p + [''];
+_n = _n + ['RG 33 Woodland M2'];
+_o = _o + [1100];
+_t = _t + [25];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_LIGHT];
+_s = _s + [""];
+
 _c = _c + ['B_Truck_01_medical_F'];
 _p = _p + [''];
 _n = _n + ["Mobile respawn truck"];
@@ -562,7 +580,7 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_NAVAL];
 _s = _s + [""];
 
-
+/*
 _c = _c + ['rhsusf_m113_usarmy'];
 _p = _p + [''];
 _n = _n + [''];
@@ -571,6 +589,7 @@ _t = _t + [20];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
+*/
 
 _c = _c + ['RHS_M2A2'];
 _p = _p + [''];
@@ -788,10 +807,10 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
-_c = _c + ['RHS_AH64D'];
+_c = _c + ['RHS_AH64D_AA'];
 _p = _p + [''];
-_n = _n + [''];
-_o = _o + [40000];
+_n = _n + ['AH-64D (FFAR/AT/AA)'];
+_o = _o + [45000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -831,7 +850,7 @@ _s = _s + ["service-medic"];
 _c = _c + ['RHS_A10'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [70000];
+_o = _o + [60000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -849,8 +868,8 @@ _s = _s + [""];
 
 _c = _c + ['RHS_AH64D_GS'];
 _p = _p + [''];
-_n = _n + [''];
-_o = _o + [45000];
+_n = _n + ['AH-64D (FFAR)'];
+_o = _o + [35000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -858,7 +877,7 @@ _s = _s + [""];
 
 _c = _c + ['RHS_AH64D_CS'];
 _p = _p + [''];
-_n = _n + [''];
+_n = _n + ['AH-64D (AT)'];
 _o = _o + [45000];
 _t = _t + [35];
 _u = _u + [1];
@@ -868,7 +887,7 @@ _s = _s + [""];
 //0.3.7
 _c = _c + ['rhs_ah1z'];
 _p = _p + [''];
-_n = _n + [''];
+_n = _n + ['AH-1Z (FFAR/AT/AA)'];
 _o = _o + [35000];
 _t = _t + [35];
 _u = _u + [1];
@@ -877,8 +896,8 @@ _s = _s + [""];
 
 _c = _c + ['rhs_ah1z_gs'];
 _p = _p + [''];
-_n = _n + [''];
-_o = _o + [35000];
+_n = _n + ['AH-1Z (FFAR/AA)'];
+_o = _o + [30000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];
@@ -886,8 +905,8 @@ _s = _s + [""];
 
 _c = _c + ['rhs_ah1z_cs'];
 _p = _p + [''];
-_n = _n + [''];
-_o = _o + [35000];
+_n = _n + ['AH-1Z (AT/AA)'];
+_o = _o + [40000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];

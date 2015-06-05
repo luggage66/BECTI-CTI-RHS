@@ -984,6 +984,7 @@ _i = _i		+ ["muzzle_snds_acp"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["muzzle_snds_H"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -995,16 +996,17 @@ _p = _p		+ [5];
 _i = _i		+ ["muzzle_snds_B"];
 _u = _u		+ [0];
 _p = _p		+ [2];
+*/
 
 _i = _i		+ ["muzzle_snds_L"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
+/*
 _i = _i		+ ["muzzle_snds_M"];
 _u = _u		+ [0];
 _p = _p		+ [2];
 
-/*
 _i = _i		+ ["optic_arco"];
 _u = _u		+ [0];
 _p = _p		+ [5];
@@ -2070,8 +2072,6 @@ _p = _p		+ [150];
 _i = _i		+ [["srifle_DMR_03_DMS_snds_F"]];
 _u = _u		+ [2];
 _p = _p		+ [150];
-*/
-
 
 _i = _i		+ ["srifle_DMR_06_camo_F"];
 _u = _u		+ [2];
@@ -2085,7 +2085,6 @@ _i = _i		+ [["srifle_DMR_06_camo_khs_F"]];
 _u = _u		+ [2];
 _p = _p		+ [150];
 
-/*
 _i = _i		+ ["MMG_02_camo_F"];
 _u = _u		+ [3];
 _p = _p		+ [500];
@@ -2186,7 +2185,6 @@ _p = _p		+ [5];
 _i = _i		+ ["optic_KHS_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
-*/
 
 _i = _i		+ ["muzzle_snds_338_black"];
 _u = _u		+ [3];
@@ -2207,6 +2205,7 @@ _p = _p		+ [5];
 _i = _i		+ ["muzzle_snds_93mmg_tan"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+*/
 
 _i = _i		+ ["bipod_01_F_blk"];
 _u = _u		+ [3];
@@ -2220,6 +2219,7 @@ _i = _i		+ ["bipod_01_F_snd"];
 _u = _u		+ [3];
 _p = _p		+ [5];
 
+/*
 _i = _i		+ ["bipod_02_F_blk"];
 _u = _u		+ [3];
 _p = _p		+ [5];
@@ -2239,6 +2239,7 @@ _p = _p		+ [5];
 _i = _i		+ ["bipod_03_F_oli"];
 _u = _u		+ [3];
 _p = _p		+ [5];
+*/
 
 //static designator
 
