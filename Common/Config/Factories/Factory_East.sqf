@@ -16,10 +16,10 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["rhs_weap_rpg7", 5], ["rhs_rpg7_PG7VL_mag", 20],
 		["rhs_weap_ak74m_gp25", 1],
 		["rhs_mag_rgd5", 20],
-		["1Rnd_HE_Grenade_shell", 24],
+		["rhs_VOG25", 24],
 		["UGL_FlareRed_F", 27],
-		["1Rnd_SmokeRed_Grenade_shell", 9],
-		["SmokeShellRed", 8],
+		["rhs_vg40op_red", 9],
+		["rhs_GRD40_red", 8],
 		["firstaidkit", 20],
 		["Chemlight_red", 36],
 		["rhs_acc_tgpa", 5],
@@ -74,7 +74,7 @@ _u = _u		+ ['rhs_typhoon_vdv'];
 _u = _u		+ ['O_UGV_01_F'];
 //_u = _u		+ ['O_UGV_01_rcws_F'];
 //_u = _u		+ ['O_Truck_03_medical_F'];
-_u = _u		+ ['rhs_btr60_msv'];
+//_u = _u		+ ['rhs_btr60_msv'];
 _u = _u		+ ['rhs_btr70_msv'];
 _u = _u		+ ['rhs_btr80_msv'];
 _u = _u		+ ['rhs_btr80a_msv'];
