@@ -13,7 +13,7 @@ missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhs_pilot_combat_h
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 	["RHS_Ural_MSV_01", [
 		["rhs_weap_ak74m", 2], ["rhs_30Rnd_545x39_7n10_AK", 50],
-		["rhs_weap_rpg7", 4], ["rhs_rpg7_PG7VL_mag", 20],
+		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7VL_mag", 15],
 		["rhs_weap_ak74m_gp25", 1],
 		["rhs_mag_rgd5", 20],
 		["rhs_VOG25", 24],
@@ -28,7 +28,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["Toolkit", 1],
 		["B_Bergen_sgg_Exp", 4]
 	]],
-	["rhs_tigr_msv", [	["Toolkit", 1],["firstaidkit", 10],["rhs_30Rnd_545x39_7n10_AK", 15],["rhs_weap_rpg7", 4], ["rhs_rpg7_PG7VL_mag", 20]]]
+	["rhs_tigr_msv", [	["Toolkit", 1],["firstaidkit", 10],["rhs_30Rnd_545x39_7n10_AK", 15],["rhs_weap_rpg7", 2], ["rhs_rpg7_PG7VL_mag", 6]]]
 	//,	["O_Heli_Light_02_unarmed_F", []]
 ]];
 
