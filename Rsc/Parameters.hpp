@@ -198,7 +198,7 @@ class Params {
 		title = "Zerty:Team swap protection";
 		values[] = {0,1};
 		texts[] = {"off","on"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_TEAMSTACK {
 		title = "Zerty:Team Stack protection";
