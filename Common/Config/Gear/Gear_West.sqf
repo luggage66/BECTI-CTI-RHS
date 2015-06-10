@@ -133,15 +133,15 @@ _p = _p		+ [50];
 
 _i = _i		+ ["Titan_AA"];
 _u = _u		+ [3];
-_p = _p		+ [75];
+_p = _p		+ [700];
 
 _i = _i		+ ["Titan_AP"];
 _u = _u		+ [2];
-_p = _p		+ [85];
+_p = _p		+ [150];
 
 _i = _i		+ ["Titan_AT"];
 _u = _u		+ [2];
-_p = _p		+ [150];
+_p = _p		+ [450];
 */
 
 _i = _i		+ ["B_IR_Grenade"];
@@ -1988,7 +1988,7 @@ _p = _p		+ [5];
 _i = _i		+ ["AGM_EarBuds"];
 _u = _u		+ [0];
 _p = _p		+ [5];
-//rq11raven 
+//rq11raven
 
 _i = _i		+ ["B_rhsusf_B_BACKPACK"];
 _u = _u		+ [3];
