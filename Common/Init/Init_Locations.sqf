@@ -1,5 +1,7 @@
 private ["_town"];
 
+CTI_CO_FNC_InitLocation = { _this execVM "Common\Init\Init_Location.sqf"; };
+
 CTI_Towns = [];
 
 if (CTI_isServer) then
@@ -33,6 +35,22 @@ if (CTI_isServer) then
 	};
 	CTI_WEST setVariable ["CTI_TOWNS", CTI_TOWNS,true];
 	CTI_EAST setVariable ["CTI_TOWNS", CTI_TOWNS,true];
+
+	
+
+	_towns = nearestLocations [[10000, 10000], ["NameVillage","NameCity","NameCityCapital"], 25000];
+
+	{
+		_flag = "FlagPole_F" createVehicle position _x;
+		_name = text _x;
+		_value = 50;
+
+		CTI_Towns pushBack _flag;
+
+		[[_flag, _name, resistance, _value], "CTI_CO_FNC_InitLocation", true, true] call BIS_fnc_MP;
+
+	} forEach _towns;
+
 } else {
 	waitUntil {!isNil {CTI_P_SideLogic getVariable "CTI_Towns"} };
 	CTI_TOWNS=(CTI_P_SideLogic getVariable "CTI_Towns");
