@@ -2341,8 +2341,59 @@ _i = _i		+ ["rhs_mag_m18_yellow"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+//0.3.8
 
+_i = _i		+ ["rhsusf_8Rnd_doomsday_Buck"];
+_u = _u		+ [2];
+_p = _p		+ [10];
 
+_i = _i		+ ["rhsusf_5Rnd_Slug"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_8Rnd_Slug"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_5Rnd_HE"];
+_u = _u		+ [3];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_8Rnd_HE"];
+_u = _u		+ [2];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_5Rnd_FRAG"];
+_u = _u		+ [3];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_8Rnd_FRAG"];
+_u = _u		+ [2];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_lwh_helmet_marpatd"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_lwh_helmet_marpatwd"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_m112x4_mag"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_acc_nt4_black"];
+_u = _u		+ [2];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_acc_nt4_tan"];
+_u = _u		+ [2];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_acc_harris_bipod"];
+_u = _u		+ [1];
+_p = _p		+ [15];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 
