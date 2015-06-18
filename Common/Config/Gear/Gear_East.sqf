@@ -1765,19 +1765,19 @@ _u = _u		+ [3];
 _p = _p		+ [50];
 
 _i = _i		+ ["rhs_acc_dtk"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_acc_dtk1"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_acc_dtk3"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_acc_sniper_base"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_weap_svds_npz"];
@@ -1785,11 +1785,11 @@ _u = _u		+ [3];
 _p = _p		+ [20];
 
 _i = _i		+ ["rhs_acc_tgpv"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_acc_npz"];
-_u = _u		+ [0];
+_u = _u		+ [1];
 _p = _p		+ [5];
 
 _i = _i		+ ["rhs_weap_svdp_npz"];
@@ -2262,6 +2262,16 @@ _p = _p		+ [50];
 _i = _i		+ ["lerca_1200_tan"];
 _u = _u		+ [1];
 _p = _p		+ [50];
+
+//0.3.8
+
+_i = _i		+ ["rhs_acc_dtk1l"];
+_u = _u		+ [1];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhs_weap_tr8"];
+_u = _u		+ [1];
+_p = _p		+ [10];
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
 

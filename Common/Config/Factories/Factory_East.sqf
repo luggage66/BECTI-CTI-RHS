@@ -111,6 +111,7 @@ _u = _u		+ ["rhs_bmd1r"];
 _u = _u		+ ["rhs_t80um"];
 _u = _u		+ ["rhs_t80ue1"];
 _u = _u		+ ["rhs_t80u45m"];
+_u = _u		+ ["rhs_t90_tv"];
 //_u = _u		+ ["rhs_9k79_B"];
 _u = _u		+ ["rhs_9k79_K"];
 _u = _u		+ ["rhs_9k79"];
