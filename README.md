@@ -2,6 +2,8 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/luggage66/BECTI-ZERTY-RHS.Altis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+[![Join the chat at https://gitter.im/luggage66/BECTI-ZERTY-RHS.Altis](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/luggage66/BECTI-ZERTY-RHS.Altis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##Monetization
 This mission (or code that I own inside) __cannot__ be used in a monetization process as defined by BiS at http://www.bistudio.com/monetization & http://www.bistudio.com/monetization/faq
 
